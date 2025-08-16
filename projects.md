@@ -1,3 +1,7 @@
+---
+layout: default
+title: "Publications"
+---
 ## Project Portfolio
 
 ### YieldVision AI
