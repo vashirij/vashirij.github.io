@@ -1,23 +1,43 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
   <head>
     <meta charset="UTF-8">
+    {% seo %}
 
-{% seo %}
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+
+    <!-- Site CSS -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
+    <title>{{ page.title | default: site.title }}</title>
   </head>
+
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
+    <!-- Header / Navigation -->
     <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      <nav class="navbar">
+        <div class="nav-brand">
+          <a href="{{ '/' | relative_url }}">{{ site.title | default: 'Vashiri James' }}</a>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="{{ '/' | relative_url }}">Home</a></li>
+          <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+          <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
+          <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+        </ul>
+      </nav>
+
+      <h1 class="project-name">{{ page.title | default: site.title }}</h1>
+      <h2 class="project-tagline">{{ page.description | default: 'Partnering with Businesses to Deliver Ethical, Data-Driven & Secure Solutions' }}</h2>
+
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
       {% endif %}
@@ -27,14 +47,82 @@
       {% endif %}
     </header>
 
+    <!-- Main Content -->
     <main id="content" class="main-content" role="main">
       {{ content }}
-
-      <footer class="site-footer">
-        {% if site.github.is_project_page %}
-          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
-        {% endif %}
-       
     </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <p>Contact: <a href="mailto:grinefalcon1@gmail.com">grinefalcon1@gmail.com</a></p>
+      {% if site.github.is_project_page %}
+        <span class="site-footer-owner">
+          <a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by 
+          <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.
+        </span>
+      {% endif %}
+    </footer>
+
+    <style>
+      body {
+        font-family: 'Open Sans', sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+      }
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+        background-color: #157878;
+      }
+      .nav-brand a {
+        color: #fff;
+        font-weight: bold;
+        font-size: 1.5rem;
+        text-decoration: none;
+      }
+      .nav-menu {
+        list-style: none;
+        display: flex;
+        gap: 1.5rem;
+      }
+      .nav-menu li a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      .nav-menu li a:hover {
+        text-decoration: underline;
+      }
+      .page-header {
+        text-align: center;
+        padding: 2rem 1rem;
+        background-color: #f4f4f4;
+      }
+      .btn {
+        display: inline-block;
+        margin: 0.5rem;
+        padding: 0.5rem 1rem;
+        background-color: #157878;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+      .btn:hover {
+        background-color: #0f5757;
+      }
+      .site-footer {
+        text-align: center;
+        padding: 2rem 1rem;
+        background-color: #222;
+        color: #fff;
+      }
+      .site-footer a {
+        color: #fff;
+        text-decoration: underline;
+      }
+    </style>
   </body>
 </html>
