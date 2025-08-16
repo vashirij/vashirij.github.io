@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "James Vashiri"
-permalink: /
 description: "Portfolio and profile of James Vashiri – Software Engineer, AI & Cybersecurity enthusiast"
 ---
 ## James Vashiri
