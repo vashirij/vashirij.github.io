@@ -14,11 +14,23 @@ body {
   padding: 1rem 2rem;
   background-color: #1E3A8A; /* Dark Blue */
 }
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 .nav-brand a {
   color: #FACC15; /* Yellow */
   font-weight: bold;
   font-size: 1.5rem;
   text-decoration: none;
+}
+.profile-photo {
+  width: 50px;        /* matches navbar logo height */
+  height: 50px;       /* square */
+  border-radius: 50%; /* circular */
+  object-fit: cover;  /* cover without stretching */
+  border: 2px solid #FACC15; /* optional border in yellow */
 }
 .nav-menu {
   list-style: none;
@@ -39,14 +51,6 @@ body {
   text-align: center;
   padding: 2rem 1rem;
   background-color: #E0F2FE; /* Light Blue */
-}
-.profile-photo {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin: 0 auto 1rem;
-  border: 3px solid #1E3A8A;
 }
 .project-name {
   margin: 0.5rem 0;
@@ -86,13 +90,4 @@ body {
 .site-footer a {
   color: #FACC15;
   text-decoration: underline;
-}
-/* Profile Photo */
-.profile-photo {
-  width: 150px;      /* change width */
-  height: 150px;     /* change height */
-  border-radius: 50%; /* makes it circular */
-  object-fit: cover;  /* ensures image covers the area without stretching */
-  margin: 0 auto 1rem; /* center and space below */
-  border: 3px solid #1E3A8A; /* optional border */
 }
