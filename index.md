@@ -17,9 +17,9 @@ PhD Goal: AI, Cybersecurity, IoT, Decision Support Systems
 - **AI/ML:** Data preprocessing, supervised/unsupervised learning, model training  
 
 ### Education
-- **M.S. Computer & Information Science**, Marquette University (Current, 2025-)-  
-- **BSc (Hons) Software Engineering**, University of Zimbabwe (2018-2025)– 
-- **BBS (Hons) Marketing**, University of Zimbabwe (2010-2014)–  
+- **M.S. Computer & Information Science**, Marquette University (Current, 2025-)  
+- **BSc (Hons) Software Engineering**, University of Zimbabwe (2018-2025) 
+- **BBS (Hons) Marketing**, University of Zimbabwe (2010-2014)  
 
 ### Employment
 - **Technical Support Specialist**, Marquette Universaity (2025-Present) 
