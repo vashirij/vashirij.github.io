@@ -10,7 +10,7 @@ email: "grinefalcon2@gmail.com"
 description: "MS in Computer & Information Science | AI, Cybersecurity, IoT | Research & Project Portfolio"
 baseurl: "" # 
 url: "https://vashirij.github.io"
-logo: "/assets/images/profile-pic.png"
+logo: "/assets/images/profile-pic.jpg"
 # Site settings
 ...
 sass:
