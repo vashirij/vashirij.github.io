@@ -1,10 +1,6 @@
 ---
-layout: home
-title: "James Vashiri"
-permalink: /
----
 
-## About Me
+## James Vashiri
 MS in Computer & Information Science – Integrated Practicum (Fall 2025)  
 PhD Goal: AI, Cybersecurity, IoT, Decision Support Systems  
 
