@@ -1,5 +1,4 @@
-@media screen and (min-width: 42em) and (max-width: 64em) {
-    .main-content {
+.main-content {
         padding: 2rem 4rem;
         padding-top: 2rem
 32px
@@ -9,7 +8,7 @@
         padding-left: 4rem;
         font-size: 1.1rem;
     }
-}
+
 
 /* Navbar */
 .navbar {
