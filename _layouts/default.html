@@ -24,6 +24,8 @@
   <header class="page-header" role="banner">
     <nav class="navbar">
       <div class="nav-brand">
+        <!-- Profile Photo next to site title -->
+        <img src="{{ '/assets/images/profile-pic.jpg' | relative_url }}" alt="Vashiri James" class="profile-photo">
         <a href="{{ '/' | relative_url }}">{{ site.title | default: 'Vashiri James' }}</a>
       </div>
       <ul class="nav-menu">
@@ -33,9 +35,6 @@
         <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
       </ul>
     </nav>
-
-    <!-- Profile Photo -->
-    <img src="{{ '/assets/images/profile-pic.jpg' | relative_url }}" alt="Vashiri James" class="profile-photo">
 
     <h1 class="project-name">{{ page.title | default: site.title }}</h1>
     <h2 class="project-tagline">{{ page.description | default: 'Partnering with Businesses to Deliver Ethical, Data-Driven & Secure Solutions' }}</h2>
