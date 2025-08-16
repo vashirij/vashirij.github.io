@@ -8,9 +8,16 @@ plugins:
 title: "James Vashiri"
 email: "grinefalcon2@gmail.com"
 description: "MS in Computer & Information Science | AI, Cybersecurity, IoT | Research & Project Portfolio"
-baseurl: "" # Leave empty for username.github.io
+baseurl: "" # 
 url: "https://vashirij.github.io"
 logo: "/assets/images/profile-pic.png"
+# Site settings
+...
+sass:
+  style: compressed
+# Include custom CSS
+include:
+  - _assets/css/custom.css
 
 # Author
 author:
