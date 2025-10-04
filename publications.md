@@ -132,9 +132,7 @@ permalink: /publications/
 
 ## 🎯 PhD Research Goals & Future Directions
 
-<div class="card">
-  <h3><i class="fas fa-road" style="color: var(--primary-color);"></i> Planned PhD Research Areas</h3>
-</div>  
+  
 **Software Engineering Track**
   - Large-Scale System Architecture: Designing resilient, scalable software systems for enterprise applications
   - **DevOps & Automation:** Advanced CI/CD pipeline optimization and infrastructure as code
