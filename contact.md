@@ -3,6 +3,23 @@ layout: default
 title: "Contact"
 permalink: /contact/
 ---
+
+<div class="text-center" style="padding: 3rem 2rem; background: linear-gradient(135deg, #1F2937, #374151); color: white; border-radius: var(--border-radius); margin-bottom: 3rem;">
+  <h1 style="font-size: 2.5rem; margin-bottom: 1rem; color: white;">🚀 Let's Build the Future Together</h1>
+  <p style="font-size: 1.3rem; margin-bottom: 2rem; opacity: 0.9;">Ready to collaborate on cutting-edge ML/AI projects or groundbreaking research?</p>
+  
+  <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; margin-bottom: 2rem;">
+    <a href="mailto:james.vashiri@marquette.edu?subject=Industry%20Opportunity%20-%20Let's%20Talk" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 1rem 2rem; background: linear-gradient(135deg, #2563EB, #1D4ED8); color: white; text-decoration: none; border-radius: 10px; font-weight: 700; font-size: 1.1rem; transition: all 0.3s ease; box-shadow: 0 4px 8px rgba(37, 99, 235, 0.4);" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 6px 12px rgba(37, 99, 235, 0.5)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 8px rgba(37, 99, 235, 0.4)'">
+      <i class="fas fa-rocket"></i> Hire Me for Industry Role
+    </a>
+    <a href="mailto:james.vashiri@marquette.edu?subject=PhD%20Research%20Collaboration" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 1rem 2rem; background: linear-gradient(135deg, #7C3AED, #6D28D9); color: white; text-decoration: none; border-radius: 10px; font-weight: 700; font-size: 1.1rem; transition: all 0.3s ease; box-shadow: 0 4px 8px rgba(124, 58, 237, 0.4);" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 6px 12px rgba(124, 58, 237, 0.5)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 8px rgba(124, 58, 237, 0.4)'">
+      <i class="fas fa-university"></i> Discuss PhD Research
+    </a>
+  </div>
+  
+  <p style="font-size: 1rem; opacity: 0.8; margin: 0;">⚡ Quick Response Guaranteed • 📅 Available for Immediate Discussion • 🌍 Open to Remote/Relocation</p>
+</div>
+
 # 📧 Contact & Opportunities
 
 ## Open to Industry & Academic Opportunities
@@ -56,6 +73,27 @@ I'm passionate about advancing the field through rigorous research:
 - **PhD Program Discussions:** Fall 2027 admission opportunities
 - **Conference Presentations:** Sharing research findings and networking
 
+## ⚡ Why Connect With Me Now?
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin: 2rem 0; padding: 2rem; background: linear-gradient(135deg, #FEF3C7, #FDE68A); border-radius: var(--border-radius); border-left: 5px solid #F59E0B;">
+  <div style="text-align: center;">
+    <h4 style="color: #92400E; margin-bottom: 0.5rem;">🎯 Immediate Impact</h4>
+    <p style="margin: 0; color: #78350F;">5+ years experience ready to deploy on Day 1</p>
+  </div>
+  <div style="text-align: center;">
+    <h4 style="color: #92400E; margin-bottom: 0.5rem;">🚀 Cutting-Edge Skills</h4>
+    <p style="margin: 0; color: #78350F;">Specialized in Graph Neural Networks & AI</p>
+  </div>
+  <div style="text-align: center;">
+    <h4 style="color: #92400E; margin-bottom: 0.5rem;">🎓 Research Ready</h4>
+    <p style="margin: 0; color: #78350F;">Publications in progress, PhD-track student</p>
+  </div>
+  <div style="text-align: center;">
+    <h4 style="color: #92400E; margin-bottom: 0.5rem;">⏰ Available Soon</h4>
+    <p style="margin: 0; color: #78350F;">Summer 2026 for industry, Fall 2027 for PhD</p>
+  </div>
+</div>
+
 ## 🤝 Let's Connect
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin: 2rem 0;">
@@ -93,13 +131,42 @@ I'm passionate about advancing the field through rigorous research:
 
 ---
 
-<div class="text-center" style="padding: 3rem 2rem; background: linear-gradient(135deg, var(--surface), #EBF4FF); border-radius: var(--border-radius); margin: 3rem 0;">
-  <h3>🌟 Ready to Make an Impact</h3>
-  <p style="font-size: 1.1rem; margin-bottom: 2rem;">
-    Whether building next-generation ML systems or advancing AI research, I'm excited to contribute to meaningful projects.
-  </p>
-  <a href="mailto:james.vashiri@marquette.edu?subject=Opportunity%20Discussion" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 2rem; background: linear-gradient(135deg, #DC2626, #B91C1C); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 1.1rem; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(220, 38, 38, 0.3);" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(220, 38, 38, 0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(220, 38, 38, 0.3)'">
-    <i class="fas fa-rocket"></i> Start the Conversation
-  </a>
+<div style="text-center; padding: 4rem 2rem; background: linear-gradient(135deg, #1F2937, #374151); color: white; border-radius: var(--border-radius); margin: 3rem 0; position: relative; overflow: hidden;">
+  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="75" cy="75" r="1" fill="rgba(255,255,255,0.1)"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>'); opacity: 0.1;"></div>
+  
+  <div style="position: relative; z-index: 1;">
+    <h2 style="font-size: 2.2rem; margin-bottom: 1rem; color: white;">🌟 Don't Miss This Opportunity</h2>
+    <p style="font-size: 1.3rem; margin-bottom: 1rem; opacity: 0.9;">
+      Connect with a <strong>proven ML engineer</strong> and <strong>emerging research leader</strong>
+    </p>
+    <p style="font-size: 1.1rem; margin-bottom: 3rem; opacity: 0.8;">
+      Whether you're building the next unicorn startup or advancing AI research, let's explore how we can create something extraordinary together.
+    </p>
+    
+    <div style="display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 2rem;">
+      <a href="mailto:james.vashiri@marquette.edu?subject=Urgent%20-%20Industry%20Opportunity%20Discussion" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 1.2rem 2.5rem; background: linear-gradient(135deg, #DC2626, #B91C1C); color: white; text-decoration: none; border-radius: 12px; font-weight: 700; font-size: 1.2rem; transition: all 0.3s ease; box-shadow: 0 6px 12px rgba(220, 38, 38, 0.4); text-transform: uppercase; letter-spacing: 0.5px;" onmouseover="this.style.transform='translateY(-3px) scale(1.05)'; this.style.boxShadow='0 8px 16px rgba(220, 38, 38, 0.6)'" onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.boxShadow='0 6px 12px rgba(220, 38, 38, 0.4)'">
+        <i class="fas fa-fire"></i> Let's Talk Business
+      </a>
+      
+      <a href="mailto:james.vashiri@marquette.edu?subject=Research%20Partnership%20-%20PhD%20Collaboration" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 1.2rem 2.5rem; background: linear-gradient(135deg, #059669, #047857); color: white; text-decoration: none; border-radius: 12px; font-weight: 700; font-size: 1.2rem; transition: all 0.3s ease; box-shadow: 0 6px 12px rgba(5, 150, 105, 0.4); text-transform: uppercase; letter-spacing: 0.5px;" onmouseover="this.style.transform='translateY(-3px) scale(1.05)'; this.style.boxShadow='0 8px 16px rgba(5, 150, 105, 0.6)'" onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.boxShadow='0 6px 12px rgba(5, 150, 105, 0.4)'">
+        <i class="fas fa-brain"></i> Research Together
+      </a>
+    </div>
+    
+    <div style="display: flex; justify-content: center; align-items: center; gap: 2rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.2);">
+      <div style="display: flex; align-items: center; gap: 0.5rem; opacity: 0.9;">
+        <i class="fas fa-clock" style="color: #F59E0B;"></i>
+        <span style="font-size: 0.9rem;">Response within 24hrs</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 0.5rem; opacity: 0.9;">
+        <i class="fas fa-calendar-check" style="color: #10B981;"></i>
+        <span style="font-size: 0.9rem;">Available for immediate calls</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 0.5rem; opacity: 0.9;">
+        <i class="fas fa-handshake" style="color: #8B5CF6;"></i>
+        <span style="font-size: 0.9rem;">Ready to make an impact</span>
+      </div>
+    </div>
+  </div>
 </div>
 
