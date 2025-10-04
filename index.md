@@ -265,30 +265,30 @@ I am open to **PhD research collaborations** and **industry opportunities** in M
 
 <div class="text-center" style="padding: 3rem 2rem; background: linear-gradient(135deg, var(--surface), #EBF4FF); border-radius: var(--border-radius); margin: 2rem 0;">
   <h3>🎓 Open to PhD Collaboration</h3>
-  <p style="font-size: 1.1rem; margin-bottom: 2rem;">Seeking research and academic partnerships in <strong>Graph Neural Networks</strong>, <strong>Cross-Domain Machine Learning</strong>, and <strong>Trustworthy AI</strong>.<br>Available for Fall 2027 PhD intake and industry ML/Data Science roles.</p>
+  <p style="font-size: 1.1rem; margin-bottom: 2rem;">Seeking research and academic partnerships in <strong>Graph Neural Networks</strong>, <strong>Cross-Domain Machine Learning</strong>, and <strong>Trustworthy AI</strong>.<br>Available for Fall 2026 PhD intake and industry ML/Data Science roles.</p>
   
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 2rem 0;">
     <div>
       <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">🏢 Industry Roles</h4>
       <p style="font-size: 0.9rem; margin-bottom: 1rem;">ML Engineer, Data Scientist, Research Engineer</p>
-      <a href="/contact/" class="btn">
+      <a href="/contact/" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #2563EB, #1D4ED8); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(37, 99, 235, 0.3);" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(37, 99, 235, 0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(37, 99, 235, 0.3)'">
         <i class="fas fa-briefcase"></i> Hire Me
       </a>
     </div>
     <div>
       <h4 style="color: var(--secondary-color); margin-bottom: 0.5rem;">🎓 PhD Programs</h4>
       <p style="font-size: 0.9rem; margin-bottom: 1rem;">Graph Neural Networks, Trustworthy AI Research</p>
-      <a href="/contact/" class="btn btn-secondary">
+      <a href="/contact/" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #7C3AED, #6D28D9); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(124, 58, 237, 0.3);" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(124, 58, 237, 0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(124, 58, 237, 0.3)'">
         <i class="fas fa-university"></i> Collaborate
       </a>
     </div>
   </div>
   
   <div style="margin-top: 2rem;">
-    <a href="https://github.com/vashirij" class="btn btn-secondary" target="_blank">
+    <a href="https://github.com/vashirij" target="_blank" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #374151, #1F2937); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; margin-right: 1rem; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(55, 65, 81, 0.3);" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(55, 65, 81, 0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(55, 65, 81, 0.3)'">
       <i class="fab fa-github"></i> GitHub Portfolio
     </a>
-    <a href="/publications/" class="btn btn-secondary">
+    <a href="/publications/" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #059669, #047857); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(5, 150, 105, 0.3);" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(5, 150, 105, 0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(5, 150, 105, 0.3)'">
       <i class="fas fa-book-open"></i> Research Work
     </a>
   </div>
