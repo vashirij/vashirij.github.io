@@ -62,7 +62,7 @@ I'm passionate about advancing the field through rigorous research:
   <div class="card">
     <h3><i class="fas fa-briefcase" style="color: var(--primary-color);"></i> Industry Recruiting</h3>
     <p>Full-time opportunities in ML/Data Science starting Summer 2026</p>
-    <a href="mailto:james.vashiri@marquette.edu?subject=Industry%20Opportunity" class="btn">
+    <a href="mailto:james.vashiri@marquette.edu?subject=Industry%20Opportunity" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #2563EB, #1D4ED8); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(37, 99, 235, 0.3);" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(37, 99, 235, 0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(37, 99, 235, 0.3)'">
       <i class="fas fa-handshake"></i> Discuss Role
     </a>
   </div>
@@ -70,7 +70,7 @@ I'm passionate about advancing the field through rigorous research:
   <div class="card">
     <h3><i class="fas fa-university" style="color: var(--secondary-color);"></i> Academic Collaboration</h3>
     <p>PhD programs, research partnerships, academic mentorship</p>
-    <a href="mailto:james.vashiri@marquette.edu?subject=Academic%20Collaboration" class="btn btn-secondary">
+    <a href="mailto:james.vashiri@marquette.edu?subject=Academic%20Collaboration" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #7C3AED, #6D28D9); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(124, 58, 237, 0.3);" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(124, 58, 237, 0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(124, 58, 237, 0.3)'">
       <i class="fas fa-graduation-cap"></i> Research Together
     </a>
   </div>
@@ -78,7 +78,7 @@ I'm passionate about advancing the field through rigorous research:
   <div class="card">
     <h3><i class="fas fa-coffee" style="color: var(--accent-color);"></i> Networking</h3>
     <p>Professional networking, project discussions, knowledge sharing</p>
-    <a href="mailto:james.vashiri@marquette.edu?subject=Professional%20Networking" class="btn btn-secondary">
+    <a href="mailto:james.vashiri@marquette.edu?subject=Professional%20Networking" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #F59E0B, #D97706); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(245, 158, 11, 0.3);" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(245, 158, 11, 0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(245, 158, 11, 0.3)'">
       <i class="fas fa-users"></i> Connect
     </a>
   </div>
@@ -98,7 +98,7 @@ I'm passionate about advancing the field through rigorous research:
   <p style="font-size: 1.1rem; margin-bottom: 2rem;">
     Whether building next-generation ML systems or advancing AI research, I'm excited to contribute to meaningful projects.
   </p>
-  <a href="mailto:james.vashiri@marquette.edu?subject=Opportunity%20Discussion" class="btn">
+  <a href="mailto:james.vashiri@marquette.edu?subject=Opportunity%20Discussion" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 2rem; background: linear-gradient(135deg, #DC2626, #B91C1C); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 1.1rem; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(220, 38, 38, 0.3);" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(220, 38, 38, 0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(220, 38, 38, 0.3)'">
     <i class="fas fa-rocket"></i> Start the Conversation
   </a>
 </div>
