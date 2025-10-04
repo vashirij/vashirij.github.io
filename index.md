@@ -1,6 +1,36 @@
 ---
 layout: default
 title: "James Vashiri"
+description: "PhD-Track Researcher in Graph Neural Networks & Cross-Domain ML | Healthcare, Agriculture & Behavioral Analytics"
+---
+
+<div class="card fade-in-up">
+  <div style="display: flex; align-items: center; gap: 1.5rem; margin-bottom: 2rem; flex-wrap: wrap;">
+    <img src="/assets/images/profile-pic.jpg" alt="James Vashiri" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 4px solid var(--primary-color);">
+    <div>
+      <h1 style="margin: 0;">James Vashiri</h1>
+      <p style="font-size: 1.2rem; color: var(--primary-color); margin: 0.5rem 0;"><strong>Graph Neural Networks & Cross-Domain ML</strong></p>
+      <p style="font-size: 1rem; color: var(--text-secondary); margin: 0.5rem 0;">MS in Computer & Information Science | Marquette University</p>
+      <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1rem;">
+        <a href="mailto:james.vashiri@marquette.edu" class="btn">
+          <i class="fas fa-envelope"></i> Email Me
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+## 🎯 Research Focus & Profile
+
+My research interests lie at the intersection of **machine learning**, **graph neural networks (GNNs)**, and **data-driven decision systems**. I focus on developing robust, explainable, and transferable AI models that can generalize across domains such as healthcare, agriculture, and behavioral analytics. Specifically, my work explores **cross-domain graph learning**, **adversarial robustness**, and **explainability in GNNs**, with applications in disease prediction, digital pathology, and yield forecasting. Through these efforts, I aim to advance trustworthy and interpretable AI capable of addressing real-world challenges in both human and environmental systems.
+
+### 🔬 Core Research Areas
+- **Graph Neural Networks (GNNs):** Cross-domain graph learning, explainability, and robustness in graph-based models
+- **Machine Learning:** Transferable AI models, adversarial robustness, and domain generalization
+- **Healthcare Applications:** Disease prediction, digital pathology, and medical data analysis
+- **Agricultural Intelligence:** Yield forecasting, environmental data modeling, and precision agriculture
+- **Behavioral Analytics:** Cross-domain pattern recognition and predictive modeling
+- **Trustworthy AI:** Explainable AI, model interpretability, and robust decision systemss Vashiri"
 description: "PhD-Track Researcher in Software Engineering & Data Science | MS Student at Marquette University"
 ---
 
@@ -9,62 +39,60 @@ description: "PhD-Track Researcher in Software Engineering & Data Science | MS S
     <img src="/assets/images/profile-pic.jpg" alt="James Vashiri" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 4px solid var(--primary-color);">
     <div>
       <h1 style="margin: 0;">James Vashiri</h1>
-      <p style="font-size: 1.2rem; color: var(--primary-color); margin: 0.5rem 0;"><strong>PhD-Track Researcher | Software Engineering & Data Science</strong></p>
+      <p style="font-size: 1.2rem; color: var(--primary-color); margin: 0.5rem 0;"><strong>Software Engineering & Data Science</strong></p>
       <p style="font-size: 1rem; color: var(--text-secondary); margin: 0.5rem 0;">MS in Computer & Information Science | Marquette University</p>
       <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1rem;">
         <a href="mailto:james.vashiri@marquette.edu" class="btn">
           <i class="fas fa-envelope"></i> Email Me
         </a>
-        <a href="tel:+14143885769" class="btn btn-secondary">
-          <i class="fas fa-phone"></i> (414) 388-5769
-        </a>
+
       </div>
     </div>
   </div>
 </div>
 
-## 🎯 Research Focus & PhD Vision
+## 🎯 Research Focus & Profile
 
-I'm a **PhD-track researcher** specializing in **Software Engineering** and **Data Science & Analytics**, currently advancing my foundation through an MS in Computer and Information Science at Marquette University. My research interests center on the intersection of **advanced software systems**, **machine learning applications**, and **data-driven decision making**.
+I’m passionate about Software Engineering and Data Science & Analytics, with a focus on applying machine learning and intelligent systems to solve real-world challenges through data-driven research. My research interests center on the intersection of **advanced software systems**, **machine learning applications**, and **data-driven decision making**.
 
 ### 🔬 Research Interests
-- **Software Engineering:** Large-scale system architecture, software quality assurance, and DevOps automation
 - **Data Science & Analytics:** Predictive modeling, behavioral analytics, and real-time data processing
 - **AI/ML Systems:** Adversarial robustness, model optimization, and production ML pipelines
 - **Cybersecurity Analytics:** Threat detection systems and security data analysis
+- **Software Engineering:** Large-scale system architecture, software quality assurance, and DevOps automation
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; margin: 2rem 0;">
   <div class="card">
-    <h3><i class="fas fa-cogs" style="color: var(--primary-color);"></i> Software Engineering</h3>
+    <h3><i class="fas fa-project-diagram" style="color: var(--primary-color);"></i> Graph Neural Networks</h3>
     <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
-      <span style="background: #DBEAFE; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">System Design</span>
-      <span style="background: #DBEAFE; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">DevOps</span>
-      <span style="background: #DBEAFE; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">CI/CD</span>
-      <span style="background: #DBEAFE; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">Docker</span>
-      <span style="background: #DBEAFE; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">Kubernetes</span>
-      <span style="background: #DBEAFE; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">Microservices</span>
+      <span style="background: #DBEAFE; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">PyTorch Geometric</span>
+      <span style="background: #DBEAFE; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">DGL</span>
+      <span style="background: #DBEAFE; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">Graph Learning</span>
+      <span style="background: #DBEAFE; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">GNN Explainability</span>
+      <span style="background: #DBEAFE; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">Cross-Domain Transfer</span>
+      <span style="background: #DBEAFE; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">Adversarial Robustness</span>
     </div>
   </div>
   
   <div class="card">
-    <h3><i class="fas fa-chart-line" style="color: var(--secondary-color);"></i> Data Science & Analytics</h3>
+    <h3><i class="fas fa-brain" style="color: var(--secondary-color);"></i> Machine Learning & AI</h3>
     <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
-      <span style="background: #D1FAE5; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">Python</span>
-      <span style="background: #D1FAE5; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">R</span>
-      <span style="background: #D1FAE5; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">Pandas</span>
-      <span style="background: #D1FAE5; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">Scikit-learn</span>
-      <span style="background: #D1FAE5; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">TensorFlow</span>
       <span style="background: #D1FAE5; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">PyTorch</span>
+      <span style="background: #D1FAE5; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">TensorFlow</span>
+      <span style="background: #D1FAE5; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">Scikit-learn</span>
+      <span style="background: #D1FAE5; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">Domain Adaptation</span>
+      <span style="background: #D1FAE5; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">XAI/Explainability</span>
+      <span style="background: #D1FAE5; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">Transfer Learning</span>
     </div>
   </div>
   
   <div class="card">
     <h3><i class="fas fa-graduation-cap" style="color: var(--accent-color);"></i> Academic Journey</h3>
-    <p><strong>PhD Goal:</strong> Software Engineering & Data Science Analytics<br>
+    <p><strong>PhD Goal:</strong> Machine Learning & Graph Neural Networks<br>
     <em>Target: Fall 2027 Admission</em></p>
     <p><strong>MS in Computer & Information Science</strong><br>
     <em>Marquette University</em> • Expected May 2027<br>
-    <small>Specialization: Integrated Curriculum</small></p>
+    <small>Focus: ML, GNNs, Cross-Domain Applications</small></p>
     <p><strong>BS in Software Engineering (Honors)</strong><br>
     <em>Zimbabwe Open University</em> • June 2025</p>
   </div>
@@ -75,18 +103,20 @@ I'm a **PhD-track researcher** specializing in **Software Engineering** and **Da
 <div class="card">
   <h3><i class="fas fa-flask" style="color: var(--primary-color);"></i> Current Research Projects</h3>
   <ul>
-    <li><strong>Behavioral Data Analytics:</strong> ML models for smartphone usage pattern analysis and impact prediction</li>
-    <li><strong>Cybersecurity Systems:</strong> Adversarial robustness in AI-based threat detection systems</li>
-    <li><strong>Software Engineering:</strong> Cross-platform mobile development with real-time data integration</li>
+    <li><strong>Cross-Domain Graph Learning:</strong> Developing transferable GNN models for healthcare and agricultural applications</li>
+    <li><strong>Explainable GNNs:</strong> Enhancing interpretability in graph neural networks for digital pathology and disease prediction</li>
+    <li><strong>Adversarial Robustness:</strong> Building robust graph-based models resistant to adversarial attacks in critical applications</li>
+    <li><strong>Behavioral Analytics:</strong> Applying GNNs to model complex behavioral patterns across domains</li>
   </ul>
 </div>
 
 <div class="card">
   <h3><i class="fas fa-book-open" style="color: var(--secondary-color);"></i> Research Publications & Projects</h3>
   <ul>
-    <li><strong>Machine Learning for Agriculture:</strong> Maize yield prediction model using environmental data (2024-2025)</li>
-    <li><strong>Entrepreneurial Education Analysis:</strong> Statistical analysis of educational impact on business intentions (2013-2014)</li>
-    <li><strong>Software Systems:</strong> Proof of Delivery mobile application with real-time tracking capabilities</li>
+    <li><strong>Graph-Based Agricultural Intelligence:</strong> GNN models for yield prediction using environmental and spatial data (2024-2025)</li>
+    <li><strong>Cross-Domain Transfer Learning:</strong> Developing transferable ML models across healthcare and agricultural domains</li>
+    <li><strong>Explainable AI in Decision Systems:</strong> Interpretability frameworks for graph neural networks in critical applications</li>
+    <li><strong>Behavioral Pattern Recognition:</strong> Statistical analysis and ML applications in educational impact assessment (2013-2014)</li>
   </ul>
   <div style="margin-top: 1rem;">
     <a href="/publications/" class="btn btn-secondary">
@@ -155,39 +185,39 @@ I'm a **PhD-track researcher** specializing in **Software Engineering** and **Da
   </a>
 </div>
 
-## 📊 Research Methodology & Skills
+## 📊 Research Methodology & Technical Expertise
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 2rem 0;">
   <div class="card">
-    <h3><i class="fas fa-microscope" style="color: var(--primary-color);"></i> Data Science Methods</h3>
+    <h3><i class="fas fa-project-diagram" style="color: var(--primary-color);"></i> Graph Neural Networks</h3>
     <ul style="margin: 0; padding-left: 1.5rem;">
-      <li>Predictive Modeling & Statistical Analysis</li>
-      <li>Feature Engineering & Data Preprocessing</li>
-      <li>Behavioral Data Analytics</li>
-      <li>Time Series Analysis</li>
-      <li>Experimental Design & A/B Testing</li>
+      <li>Cross-Domain Graph Learning & Transfer</li>
+      <li>GNN Explainability & Interpretability</li>
+      <li>Adversarial Robustness in Graph Models</li>
+      <li>Graph-Based Disease Prediction</li>
+      <li>Spatial-Temporal Graph Analysis</li>
     </ul>
   </div>
   
   <div class="card">
-    <h3><i class="fas fa-tools" style="color: var(--secondary-color);"></i> Software Engineering</h3>
+    <h3><i class="fas fa-brain" style="color: var(--secondary-color);"></i> Machine Learning Methods</h3>
     <ul style="margin: 0; padding-left: 1.5rem;">
-      <li>Large-scale System Architecture</li>
-      <li>DevOps & CI/CD Pipelines</li>
-      <li>Performance Optimization</li>
-      <li>Cross-platform Development</li>
-      <li>Software Quality Assurance</li>
+      <li>Domain Adaptation & Transfer Learning</li>
+      <li>Explainable AI (XAI) Frameworks</li>
+      <li>Adversarial Training & Robustness</li>
+      <li>Multi-Domain Model Generalization</li>
+      <li>Trustworthy AI Development</li>
     </ul>
   </div>
   
   <div class="card">
-    <h3><i class="fas fa-database" style="color: var(--accent-color);"></i> Technical Stack</h3>
+    <h3><i class="fas fa-flask" style="color: var(--accent-color);"></i> Research Applications</h3>
     <ul style="margin: 0; padding-left: 1.5rem;">
-      <li><strong>Languages:</strong> Python, R, Java, JavaScript, C</li>
-      <li><strong>ML/AI:</strong> TensorFlow, PyTorch, Scikit-learn</li>
-      <li><strong>Databases:</strong> PostgreSQL, MongoDB, MySQL</li>
-      <li><strong>Cloud:</strong> AWS, Azure, GCP</li>
-      <li><strong>Tools:</strong> Docker, Kubernetes, Jenkins</li>
+      <li><strong>Healthcare:</strong> Digital Pathology, Disease Prediction</li>
+      <li><strong>Agriculture:</strong> Yield Forecasting, Precision Farming</li>
+      <li><strong>Behavioral Analytics:</strong> Cross-Domain Pattern Recognition</li>
+      <li><strong>Environmental Systems:</strong> Ecological Modeling</li>
+      <li><strong>Human Systems:</strong> Social Network Analysis</li>
     </ul>
   </div>
 </div>
@@ -204,7 +234,7 @@ I'm a **PhD-track researcher** specializing in **Software Engineering** and **Da
 
 <div class="text-center" style="padding: 3rem 2rem; background: linear-gradient(135deg, var(--surface), #EBF4FF); border-radius: var(--border-radius); margin: 2rem 0;">
   <h3>🎓 Ready for PhD Collaboration</h3>
-  <p style="font-size: 1.1rem; margin-bottom: 2rem;">Seeking research opportunities and academic partnerships in <strong>Software Engineering</strong> and <strong>Data Science & Analytics</strong></p>
+  <p style="font-size: 1.1rem; margin-bottom: 2rem;">Seeking research opportunities and academic partnerships in <strong>Graph Neural Networks</strong>, <strong>Cross-Domain Machine Learning</strong>, and <strong>Trustworthy AI</strong></p>
   <div style="display: flex; justify-content: center; gap: 1rem; margin-top: 1rem; flex-wrap: wrap;">
     <a href="/contact/" class="btn">
       <i class="fas fa-university"></i> Discuss Research
