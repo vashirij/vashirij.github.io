@@ -1,5 +1,7 @@
 ---
-layout: d    <h1 style="font-size: 3rem; margin-bottom: 1rem; color: #FFFFFF; font-weight: 800; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">🚀 James Vashiri</h1>
+layout:    <img src="/assets/images/profile-pic.jpg" alt="James Vashiri" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 5px solid rgba(255,255,255,0.3); margin-bottom: 2rem; box-shadow: 0 8px 32px rgba(0,0,0,0.3);">
+    
+    <h1 style="font-size: 3rem; margin-bottom: 1rem; color: #FFFFFF; font-weight: 800; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">🚀 James Vashiri</h1>
     <p style="font-size: 1.4rem; margin-bottom: 1rem; color: #F3F4F6; font-weight: 600; text-shadow: 0 1px 2px rgba(0,0,0,0.3);">ML Engineer & AI Research Scientist</p>
     <p style="font-size: 1.1rem; margin-bottom: 2rem; color: #E5E7EB; max-width: 600px; margin-left: auto; margin-right: auto; text-shadow: 0 1px 2px rgba(0,0,0,0.3);">
       5+ years building production ML systems • MS Computer Science • Ready for your next breakthrough project
@@ -78,7 +80,7 @@ I am open to **PhD research collaborations** and **industry opportunities** in M
 
 ##  Career Focus
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 2rem 0;">
+<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1.5rem; margin: 2rem 0; max-width: 1000px; margin-left: auto; margin-right: auto;">
   <div class="card">
     <h3><i class="fas fa-briefcase" style="color: var(--primary-color);"></i> Industry Roles</h3>
     <p>ML Engineer | Data Scientist | Research Engineer</p>
