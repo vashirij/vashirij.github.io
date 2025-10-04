@@ -52,18 +52,16 @@ description: "Software Engineer & Data Scientist | MS CIS Marquette University "
 </div>
 
 <div class="card fade-in-up">
-  <div style="display: flex; align-items: center; gap: 1.5rem; margin-bottom: 2rem; flex-wrap: wrap;">
-    <div style="flex: 1;">
-      <h2 style="margin: 0 0 1rem 0; color: var(--primary-color);">🎯 Ready to Make Impact</h2>
-      <p style="font-size: 1.1rem; color: var(--text-secondary); margin: 0.5rem 0; line-height: 1.6;">I'm a proven <strong>ML Engineer and Data Scientist</strong> with 5+ years of experience building production systems that drive real business results. Currently pursuing my MS in Computer Science at Marquette University while actively contributing to cutting-edge AI research.</p>
-      <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem;">
-        <a href="/projects/" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #059669, #047857); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(5, 150, 105, 0.3);" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(5, 150, 105, 0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(5, 150, 105, 0.3)'">
-          <i class="fas fa-code"></i> View My Projects
-        </a>
-        <a href="https://github.com/vashirij" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #374151, #1F2937); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(55, 65, 81, 0.3);" target="_blank" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(55, 65, 81, 0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(55, 65, 81, 0.3)'">
-          <i class="fab fa-github"></i> GitHub Portfolio
-        </a>
-      </div>
+  <div style="text-align: center; margin-bottom: 2rem;">
+    <h2 style="margin: 0 0 1rem 0; color: var(--primary-color);">🎯 Ready to Make Impact</h2>
+    <p style="font-size: 1.1rem; color: var(--text-secondary); margin: 0.5rem auto; line-height: 1.6; max-width: 800px;">I'm a proven <strong>ML Engineer and Data Scientist</strong> with 5+ years of experience building production systems that drive real business results. Currently pursuing my MS in Computer Science at Marquette University while actively contributing to cutting-edge AI research.</p>
+    <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem;">
+      <a href="/projects/" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #059669, #047857); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(5, 150, 105, 0.3);" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(5, 150, 105, 0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(5, 150, 105, 0.3)'">
+        <i class="fas fa-code"></i> View My Projects
+      </a>
+      <a href="https://github.com/vashirij" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #374151, #1F2937); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(55, 65, 81, 0.3);" target="_blank" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(55, 65, 81, 0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(55, 65, 81, 0.3)'">
+        <i class="fab fa-github"></i> GitHub Portfolio
+      </a>
     </div>
   </div>
 </div>
