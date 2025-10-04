@@ -6,8 +6,8 @@ plugins:
 
 # Site settings
 title: "James Vashiri"
-email: "grinefalcon2@gmail.com"
-description: "MS in Computer & Information Science | AI, Cybersecurity, IoT | Research & Project Portfolio"
+email: "james.vashiri@marquette.edu"
+description: "Software Engineer & AI Enthusiast | MS in Computer & Information Science | Milwaukee, WI"
 baseurl: "" # 
 url: "https://vashirij.github.io"
 logo: "/assets/images/profile-pic.jpg"
@@ -22,9 +22,9 @@ include:
 # Author
 author:
   name: "James Vashiri"
-  bio: "MS in Computer & Information Science | AI in Agriculture, Cybersecurity, IoT"
-  location: "Zimbabwe / United States"
-  github: "jvashiri"
+  bio: "Software Engineer & AI Enthusiast | MS Student at Marquette University"
+  location: "Milwaukee, WI"
+  github: "vashirij"
   linkedin: "https://linkedin.com/in/jvashiri"
 
 # Navigation
