@@ -194,17 +194,60 @@ permalink: /projects/
 
 ---
 
-<div class="text-center" style="padding: 3rem 2rem; background: linear-gradient(135deg, var(--surface), #EBF4FF); border-radius: var(--border-radius); margin: 3rem 0;">
-  <h3 style="margin-bottom: 1rem;">Interested in Collaboration?</h3>
-  <p style="font-size: 1.1rem; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">
-    I'm always excited to work on innovative projects that push the boundaries of technology and create meaningful impact.
-  </p>
-  <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
-    <a href="/contact/" class="btn">
-      <i class="fas fa-handshake"></i> Let's Collaborate
-    </a>
-    <a href="https://github.com/vashirij" class="btn btn-secondary" target="_blank">
-      <i class="fab fa-github"></i> View More on GitHub
-    </a>
+---
+
+<div style="text-center; padding: 4rem 2rem; background: linear-gradient(135deg, #1F2937, #374151); color: white; border-radius: var(--border-radius); margin: 3rem 0; position: relative; overflow: hidden;">
+  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="tech" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="20" cy="20" r="1.5" fill="rgba(255,255,255,0.1)"/><circle cx="80" cy="80" r="1.5" fill="rgba(255,255,255,0.1)"/><rect x="40" y="40" width="20" height="20" fill="rgba(255,255,255,0.05)" rx="2"/></pattern></defs><rect width="100" height="100" fill="url(%23tech)"/></svg>'); opacity: 0.2;"></div>
+  
+  <div style="position: relative; z-index: 1;">
+    <h2 style="font-size: 2.5rem; margin-bottom: 1rem; color: white;">🚀 Ready to Build Something Amazing?</h2>
+    <p style="font-size: 1.3rem; margin-bottom: 1rem; opacity: 0.9;">
+      Impressed by my projects? Let's create the <strong>next breakthrough</strong> together
+    </p>
+    <p style="font-size: 1.1rem; margin-bottom: 3rem; opacity: 0.8; max-width: 700px; margin-left: auto; margin-right: auto;">
+      From agricultural ML systems helping 200+ farmers to adversarial AI security research - I bring proven expertise in building production-ready solutions that scale and deliver measurable impact.
+    </p>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin: 3rem 0; max-width: 900px; margin-left: auto; margin-right: auto;">
+      <div style="text-align: center; padding: 2rem; background: rgba(255,255,255,0.1); border-radius: 15px; backdrop-filter: blur(10px);">
+        <h3 style="color: #10B981; margin-bottom: 1rem; font-size: 1.3rem;">💼 Industry Innovation</h3>
+        <p style="margin-bottom: 1.5rem; opacity: 0.9;">Ready to scale your ML infrastructure or build the next unicorn product?</p>
+        <a href="mailto:james.vashiri@marquette.edu?subject=ML%20Engineering%20Role%20-%20Let's%20Innovate&body=Hi%20James,%0A%0AI'm%20impressed%20by%20your%20project%20portfolio%20and%20would%20love%20to%20discuss%20an%20ML%20engineering%20opportunity.%0A%0ACompany:%0ARole%20details:%0ABest%20time%20for%20a%20call:%0A%0ALet's%20build%20something%20amazing!" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 1rem 2rem; background: linear-gradient(135deg, #DC2626, #B91C1C); color: white; text-decoration: none; border-radius: 10px; font-weight: 700; font-size: 1.1rem; transition: all 0.3s ease; box-shadow: 0 4px 8px rgba(220, 38, 38, 0.4); text-transform: uppercase;" onmouseover="this.style.transform='translateY(-3px) scale(1.05)'; this.style.boxShadow='0 6px 12px rgba(220, 38, 38, 0.6)'" onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.boxShadow='0 4px 8px rgba(220, 38, 38, 0.4)'">
+          <i class="fas fa-rocket"></i> Hire Me
+        </a>
+      </div>
+      
+      <div style="text-align: center; padding: 2rem; background: rgba(255,255,255,0.1); border-radius: 15px; backdrop-filter: blur(10px);">
+        <h3 style="color: #7C3AED; margin-bottom: 1rem; font-size: 1.3rem;">🔬 Research Partnership</h3>
+        <p style="margin-bottom: 1.5rem; opacity: 0.9;">Interested in cutting-edge AI research collaboration?</p>
+        <a href="mailto:james.vashiri@marquette.edu?subject=Research%20Collaboration%20-%20AI%20Projects&body=Hi%20James,%0A%0AYour%20research%20projects%20align%20perfectly%20with%20our%20work.%20Let's%20discuss%20collaboration%20opportunities.%0A%0AResearch%20area:%0AInstitution:%0ACollaboration%20type:%0A%0ALooking%20forward%20to%20advancing%20AI%20together!" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 1rem 2rem; background: linear-gradient(135deg, #7C3AED, #6D28D9); color: white; text-decoration: none; border-radius: 10px; font-weight: 700; font-size: 1.1rem; transition: all 0.3s ease; box-shadow: 0 4px 8px rgba(124, 58, 237, 0.4); text-transform: uppercase;" onmouseover="this.style.transform='translateY(-3px) scale(1.05)'; this.style.boxShadow='0 6px 12px rgba(124, 58, 237, 0.6)'" onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.boxShadow='0 4px 8px rgba(124, 58, 237, 0.4)'">
+          <i class="fas fa-flask"></i> Collaborate
+        </a>
+      </div>
+      
+      <div style="text-align: center; padding: 2rem; background: rgba(255,255,255,0.1); border-radius: 15px; backdrop-filter: blur(10px);">
+        <h3 style="color: #F59E0B; margin-bottom: 1rem; font-size: 1.3rem;">💡 Project Consultation</h3>
+        <p style="margin-bottom: 1.5rem; opacity: 0.9;">Need expert guidance on your ML/AI initiative?</p>
+        <a href="mailto:james.vashiri@marquette.edu?subject=ML%20Consultation%20-%20Project%20Guidance&body=Hi%20James,%0A%0AWe%20need%20expert%20consultation%20for%20our%20ML/AI%20project.%20Your%20experience%20would%20be%20invaluable.%0A%0AProject%20details:%0ATimeline:%0AConsultation%20scope:%0A%0ALet's%20discuss%20how%20you%20can%20help!" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 1rem 2rem; background: linear-gradient(135deg, #F59E0B, #D97706); color: white; text-decoration: none; border-radius: 10px; font-weight: 700; font-size: 1.1rem; transition: all 0.3s ease; box-shadow: 0 4px 8px rgba(245, 158, 11, 0.4); text-transform: uppercase;" onmouseover="this.style.transform='translateY(-3px) scale(1.05)'; this.style.boxShadow='0 6px 12px rgba(245, 158, 11, 0.6)'" onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.boxShadow='0 4px 8px rgba(245, 158, 11, 0.4)'">
+          <i class="fas fa-lightbulb"></i> Consult
+        </a>
+      </div>
+    </div>
+    
+    <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.2);">
+      <div style="display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 2rem;">
+        <a href="/contact/" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #374151, #1F2937); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(55, 65, 81, 0.3);" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(55, 65, 81, 0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(55, 65, 81, 0.3)'">
+          <i class="fas fa-envelope"></i> Contact Details
+        </a>
+        <a href="/publications/" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #059669, #047857); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(5, 150, 105, 0.3);" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(5, 150, 105, 0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(5, 150, 105, 0.3)'">
+          <i class="fas fa-book"></i> Research Papers
+        </a>
+        <a href="https://github.com/vashirij" target="_blank" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #6B46C1, #553C9A); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(107, 70, 193, 0.3);" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(107, 70, 193, 0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(107, 70, 193, 0.3)'">
+          <i class="fab fa-github"></i> GitHub Code
+        </a>
+      </div>
+      
+      <p style="font-size: 1rem; opacity: 0.7; margin: 0;">💻 Production-Ready Code • 📊 Proven Results • 🌍 Global Impact • 🚀 Ready to Scale</p>
+    </div>
   </div>
 </div>
