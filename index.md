@@ -6,7 +6,7 @@ description: "Software Engineer & Data Scientist | MS CIS Marquette University "
 
 <!-- Hero Section with Enhanced CTA -->
 <div style="text-align: center; padding: 4rem 2rem; background: linear-gradient(135deg, #1F2937, #374151); color: white; border-radius: var(--border-radius); margin-bottom: 3rem; position: relative; overflow: hidden;">
-  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="stars" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="20" cy="20" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="80" cy="80" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="60" cy="30" r="0.5" fill="rgba(255,255,255,0.08)"/></pattern></defs><rect width="100" height="100" fill="url(%23stars)"/></svg>'); opacity: 0.3;"></div>
+  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: radial-gradient(circle at 20% 20%, rgba(255,255,255,0.1) 1px, transparent 1px), radial-gradient(circle at 80% 80%, rgba(255,255,255,0.1) 1px, transparent 1px), radial-gradient(circle at 60% 30%, rgba(255,255,255,0.08) 0.5px, transparent 0.5px); background-size: 100px 100px; opacity: 0.3;"></div>
   
   <div style="position: relative; z-index: 1;">
     <img src="/assets/images/profile-pic.jpg" alt="James Vashiri" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 5px solid rgba(255,255,255,0.3); margin-bottom: 2rem; box-shadow: 0 8px 32px rgba(0,0,0,0.3);">
@@ -303,7 +303,7 @@ I am open to **PhD research collaborations** and **industry opportunities** in M
 ---
 
 <div style="text-align: center; padding: 4rem 2rem; background: linear-gradient(135deg, #1F2937, #374151); color: white; border-radius: var(--border-radius); margin: 3rem 0; position: relative; overflow: hidden;">
-  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="circuit" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="2" fill="rgba(255,255,255,0.1)"/><circle cx="75" cy="75" r="2" fill="rgba(255,255,255,0.1)"/><line x1="25" y1="25" x2="75" y2="75" stroke="rgba(255,255,255,0.05)" stroke-width="1"/></pattern></defs><rect width="100" height="100" fill="url(%23circuit)"/></svg>'); opacity: 0.2;"></div>
+  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: radial-gradient(circle at 25% 25%, rgba(255,255,255,0.1) 2px, transparent 2px), radial-gradient(circle at 75% 75%, rgba(255,255,255,0.1) 2px, transparent 2px), linear-gradient(45deg, rgba(255,255,255,0.05) 1px, transparent 1px); background-size: 100px 100px; opacity: 0.2;"></div>
   
   <div style="position: relative; z-index: 1;">
     <h2 style="font-size: 2.5rem; margin-bottom: 1rem; color: white;">🌟 Ready to Transform Your Business?</h2>
