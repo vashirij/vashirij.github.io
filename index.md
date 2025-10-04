@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "James Vashiri"
-description: "Software Engineer & Data Scientist | MS Student at Marquette University | Graph Neural Networks & ML Research"
+description: "Software Engineer & Data Scientist | MS Student at Marquette University "
 ---
 
 <div class="card fade-in-up">

@@ -11,7 +11,7 @@ permalink: /projects/
 
 # 🚀 Project Portfolio
 
-<div style="text-align: center; margin-bottom: 3rem;">
+<div style="text-align: left; margin-bottom: 3rem;">
   <p style="font-size: 1.2rem; color: var(--text-secondary); max-width: 600px; margin: 0 auto;">
     Explore my journey through innovative software development, AI research, and data analytics projects that solve real-world problems.
   </p>

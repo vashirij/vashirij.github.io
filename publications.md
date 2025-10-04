@@ -5,7 +5,7 @@ permalink: /publications/
 ---
 # 🔬 Research & Publications
 
-<div style="text-align: center; margin-bottom: 3rem;">
+<div style="text-align: left; margin-bottom: 3rem;">
   <p style="font-size: 1.2rem; color: var(--text-secondary); max-width: 700px; margin: 0 auto;">
     PhD-track research focused on <strong>Software Engineering</strong> and <strong>Data Science & Analytics</strong> with applications in behavioral analytics, cybersecurity, and agricultural technology.
   </p>
