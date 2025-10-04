@@ -13,7 +13,7 @@ permalink: /publications/
 
 ## 📊 Current Research Portfolio
 
-### 🎯 Primary Research Areas
+### Primary Research Areas
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 2rem 0;">
   <div class="card">
@@ -135,17 +135,17 @@ permalink: /publications/
 <div class="card">
   <h3><i class="fas fa-road" style="color: var(--primary-color);"></i> Planned PhD Research Areas</h3>
   
-  ### Software Engineering Track
-  - **Large-Scale System Architecture:** Designing resilient, scalable software systems for enterprise applications
+**Software Engineering Track**
+  - Large-Scale System Architecture: Designing resilient, scalable software systems for enterprise applications
   - **DevOps & Automation:** Advanced CI/CD pipeline optimization and infrastructure as code
   - **Software Quality Metrics:** Novel approaches to measuring and improving software quality in agile environments
   - **Cross-Platform Development:** Framework optimization for performance and maintainability
   
-  ### Data Science & Analytics Track
-  - **Behavioral Analytics:** Advanced modeling of human-computer interaction patterns
-  - **Real-Time Analytics:** Stream processing and real-time decision support systems
-  - **Predictive Modeling:** Domain-specific ML applications with measurable social impact
-  - **Data Privacy & Ethics:** Privacy-preserving analytics in sensitive domains
+  **Data Science & Analytics Track**
+  - Behavioral Analytics:Advanced modeling of human-computer interaction patterns
+  - Real-Time Analytics: Stream processing and real-time decision support systems
+  - Predictive Modeling: Domain-specific ML applications with measurable social impact
+  - Data Privacy & Ethics: Privacy-preserving analytics in sensitive domains
 </div>
 
 ## 📚 Academic Contributions & Skills
@@ -200,9 +200,8 @@ permalink: /publications/
       <i class="fab fa-github"></i> GitHub Research
     </a>
   </div>
-</div>t: default
-title: "Publications"
-permalink: /publications/
+</div>
+
 ---
 
 ## Publications & Research

@@ -23,7 +23,7 @@ description: "Software Engineer & Data Scientist | MS Student at Marquette Unive
   </div>
 </div>
 
-## 🚀 About Me
+## About Me
 
 I am a **Software Engineer and Data Scientist** with **5+ years of experience** in building scalable systems, mobile applications, and production-ready machine learning pipelines.
 
@@ -33,7 +33,7 @@ My work bridges **research and real-world applications**, spanning agricultural 
 
 I am open to **PhD research collaborations** and **industry opportunities** in ML, Data Science, and AI Systems.
 
-## 🎯 Career Focus
+##  Career Focus
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 2rem 0;">
   <div class="card">
@@ -43,7 +43,7 @@ I am open to **PhD research collaborations** and **industry opportunities** in M
   
   <div class="card">
     <h3><i class="fas fa-graduation-cap" style="color: var(--secondary-color);"></i> Academic Goal</h3>
-    <p><strong>PhD in Computer Science (Fall 2027)</strong><br>
+    <p><strong>PhD in Computer Science (Fall 2026)</strong><br>
     Focus on GNNs, Cross-Domain ML, and Trustworthy AI</p>
   </div>
   
@@ -53,7 +53,7 @@ I am open to **PhD research collaborations** and **industry opportunities** in M
   </div>
 </div>
 
-## 🔬 Research Interests
+##  Research Interests
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
   <div class="card">
@@ -82,7 +82,7 @@ I am open to **PhD research collaborations** and **industry opportunities** in M
   </div>
 </div>
 
-## 💼 Professional Expertise
+## Professional Expertise
 
 <div style="overflow-x: auto; margin: 2rem 0;">
   <table style="width: 100%; border-collapse: collapse; background: white; border-radius: var(--border-radius); overflow: hidden; box-shadow: var(--shadow);">
@@ -117,7 +117,7 @@ I am open to **PhD research collaborations** and **industry opportunities** in M
   </table>
 </div>
 
-## 🧠 Research Projects
+##  Research Projects
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; margin: 2rem 0;">
   
