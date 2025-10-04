@@ -4,9 +4,9 @@ title: "Contact"
 permalink: /contact/
 ---
 
-<div class="text-center" style="padding: 3rem 2rem; background: linear-gradient(135deg, #1F2937, #374151); color: white; border-radius: var(--border-radius); margin-bottom: 3rem;">
-  <h1 style="font-size: 2.5rem; margin-bottom: 1rem; color: white;">🚀 Let's Build the Future Together</h1>
-  <p style="font-size: 1.3rem; margin-bottom: 2rem; opacity: 0.9;">Ready to collaborate on cutting-edge ML/AI projects or groundbreaking research?</p>
+<div class="text-center" style="padding: 3rem 2rem; background: linear-gradient(135deg, #1F2937, #374151); color: white; border-radius: var(--border-radius); margin-bottom: 3rem; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+  <h1 style="font-size: 2.5rem; margin-bottom: 1rem; color: #FFFFFF; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">🚀 Let's Build the Future Together</h1>
+  <p style="font-size: 1.3rem; margin-bottom: 2rem; color: #F3F4F6; text-shadow: 0 1px 2px rgba(0,0,0,0.3);">Ready to collaborate on cutting-edge ML/AI projects or groundbreaking research?</p>
   
   <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; margin-bottom: 2rem;">
     <a href="mailto:james.vashiri@marquette.edu?subject=Industry%20Opportunity%20-%20Let's%20Talk" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 1rem 2rem; background: linear-gradient(135deg, #2563EB, #1D4ED8); color: white; text-decoration: none; border-radius: 10px; font-weight: 700; font-size: 1.1rem; transition: all 0.3s ease; box-shadow: 0 4px 8px rgba(37, 99, 235, 0.4);" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 6px 12px rgba(37, 99, 235, 0.5)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 8px rgba(37, 99, 235, 0.4)'">
@@ -17,7 +17,7 @@ permalink: /contact/
     </a>
   </div>
   
-  <p style="font-size: 1rem; opacity: 0.8; margin: 0;">⚡ Quick Response Guaranteed • 📅 Available for Immediate Discussion • 🌍 Open to Remote/Relocation</p>
+  <p style="font-size: 1rem; color: #E5E7EB; margin: 0; text-shadow: 0 1px 2px rgba(0,0,0,0.3);">⚡ Quick Response Guaranteed • 📅 Available for Immediate Discussion • 🌍 Open to Remote/Relocation</p>
 </div>
 
 # 📧 Contact & Opportunities
@@ -131,15 +131,15 @@ I'm passionate about advancing the field through rigorous research:
 
 ---
 
-<div style="text-center; padding: 4rem 2rem; background: linear-gradient(135deg, #1F2937, #374151); color: white; border-radius: var(--border-radius); margin: 3rem 0; position: relative; overflow: hidden;">
-  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="75" cy="75" r="1" fill="rgba(255,255,255,0.1)"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>'); opacity: 0.1;"></div>
+<div style="text-align: center; padding: 4rem 2rem; background: linear-gradient(135deg, #1F2937, #374151); color: white; border-radius: var(--border-radius); margin: 3rem 0; position: relative; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: radial-gradient(circle at 25% 25%, rgba(255,255,255,0.12) 2px, transparent 2px), radial-gradient(circle at 75% 75%, rgba(255,255,255,0.12) 2px, transparent 2px), linear-gradient(45deg, rgba(255,255,255,0.08) 1px, transparent 1px); background-size: 80px 80px; opacity: 0.4;"></div>
   
   <div style="position: relative; z-index: 1;">
-    <h2 style="font-size: 2.2rem; margin-bottom: 1rem; color: white;">🌟 Don't Miss This Opportunity</h2>
-    <p style="font-size: 1.3rem; margin-bottom: 1rem; opacity: 0.9;">
-      Connect with a <strong>proven ML engineer</strong> and <strong>emerging research leader</strong>
+    <h2 style="font-size: 2.2rem; margin-bottom: 1rem; color: #FFFFFF; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">🌟 Don't Miss This Opportunity</h2>
+    <p style="font-size: 1.3rem; margin-bottom: 1rem; color: #F3F4F6; text-shadow: 0 1px 2px rgba(0,0,0,0.3);">
+      Connect with a <strong style="color: #FFFFFF;">proven ML engineer</strong> and <strong style="color: #FFFFFF;">emerging research leader</strong>
     </p>
-    <p style="font-size: 1.1rem; margin-bottom: 3rem; opacity: 0.8;">
+    <p style="font-size: 1.1rem; margin-bottom: 3rem; color: #E5E7EB; text-shadow: 0 1px 2px rgba(0,0,0,0.3);">
       Whether you're building the next unicorn startup or advancing AI research, let's explore how we can create something extraordinary together.
     </p>
     
