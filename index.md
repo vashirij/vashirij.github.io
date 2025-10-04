@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "James Vashiri"
-description: "Software Engineer & Data Scientist | MS Student at Marquette University "
+description: "Software Engineer & Data Scientist | MS CIS Marquette University "
 ---
 
 <div class="card fade-in-up">
@@ -9,7 +9,7 @@ description: "Software Engineer & Data Scientist | MS Student at Marquette Unive
     <img src="/assets/images/profile-pic.jpg" alt="James Vashiri" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 4px solid var(--primary-color);">
     <div>
       <h1 style="margin: 0;">🧑‍💻 James Vashiri</h1>
-      <p style="font-size: 1.2rem; color: var(--primary-color); margin: 0.5rem 0;"><strong>Software Engineer & Data Scientist | MS Student at Marquette University</strong></p>
+      <p style="font-size: 1.2rem; color: var(--primary-color); margin: 0.5rem 0;"><strong>Software Engineer & Data Scientist | MS CIS Marquette University</strong></p>
       <p style="font-size: 1rem; color: var(--text-secondary); margin: 0.5rem 0;">🌍 Milwaukee, WI | 📧 grinefalcon2@gmail.com | 💼 <a href="https://github.com/vashirij" target="_blank" style="color: var(--primary-color);">GitHub Portfolio</a></p>
       <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1rem;">
         <a href="mailto:grinefalcon2@gmail.com" class="btn">
