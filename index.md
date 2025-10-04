@@ -1,40 +1,11 @@
 ---
 layout: default
 title: "James Vashiri"
-description: "Software Engineer & Data Scientist | MS Student | Graph Neural Networks & ML Research | Open to Industry & PhD Opportunities"
+description: "Software Engineer & Data Scientist | MS Student |## 💼 Experience & ImpactGraph Neural Networks & ML Research | Open to Industry & PhD Opportunities"
 ---
 
 <div class="card fade-in-up">
-  <div style="display: flex; align-items: center; gap: 1.5rem; ma<div class="text-center" style="padding: 3rem 2rem; background: linear-gradient(135deg, var(--surface), #EBF4FF); border-radius: var(--border-radius); margin: 2rem 0;">
-  <h3>🚀 Ready for New Opportunities</h3>
-  <p style="font-size: 1.1rem; margin-bottom: 2rem;">Open to <strong>industry positions</strong> in ML/Data Science and <strong>PhD research opportunities</strong> in Graph Neural Networks & AI</p>
-  
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 2rem 0;">
-    <div>
-      <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">🏢 Industry Roles</h4>
-      <p style="font-size: 0.9rem; margin-bottom: 1rem;">ML Engineer, Data Scientist, Research Engineer</p>
-      <a href="/contact/" class="btn">
-        <i class="fas fa-briefcase"></i> Hire Me
-      </a>
-    </div>
-    <div>
-      <h4 style="color: var(--secondary-color); margin-bottom: 0.5rem;">🎓 PhD Programs</h4>
-      <p style="font-size: 0.9rem; margin-bottom: 1rem;">Graph Neural Networks, Trustworthy AI Research</p>
-      <a href="/contact/" class="btn btn-secondary">
-        <i class="fas fa-university"></i> Collaborate
-      </a>
-    </div>
-  </div>
-  
-  <div style="margin-top: 2rem;">
-    <a href="https://github.com/vashirij" class="btn btn-secondary" target="_blank">
-      <i class="fab fa-github"></i> View Portfolio
-    </a>
-    <a href="/publications/" class="btn btn-secondary">
-      <i class="fas fa-book-open"></i> Research Work
-    </a>
-  </div>
-</div>em; flex-wrap: wrap;">
+  <di---display: flex; align-items: center; gap: 1.5rem; margin-bottom: 2rem; flex-wrap: wrap;">
     <img src="/assets/images/profile-pic.jpg" alt="James Vashiri" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 4px solid var(--primary-color);">
     <div>
       <h1 style="margin: 0;">James Vashiri</h1>
@@ -51,21 +22,21 @@ description: "Software Engineer & Data Scientist | MS Student | Graph Neural Net
     </div>
   </div>
 </div>
+    </div>
+  </div>
+</div>
 
 ## 🎯 Professional Profile
 
-I'm a **Software Engineer** and **Data Scientist** with 5+ years of industry experience and specialized expertise in **Graph Neural Networks** and **Machine Learning**. Currently pursuing an MS in Computer & Information Science at Marquette University, I bridge the gap between cutting-edge research and practical applications. My work spans production software systems, advanced ML models, and cross-domain AI applications with measurable business impact.
+I'm a **Software Engineer** and **Data Scientist** with 5+ years of industry experience and specialized expertise in **Graph Neural Networks** and **Machine Learning**. Currently pursuing an MS in Computer & Information Science at Marquette University, I bridge cutting-edge research with practical applications.
 
-**🎯 Career Goals:** Open to both **industry opportunities** in ML/Data Science and **PhD programs** for advanced research in Graph Neural Networks and AI.
+**🎯 Dual-Track Career Goals:** Open to both **industry opportunities** in ML/Data Science and **PhD programs** for advanced research in Graph Neural Networks and AI.
 
-### 💼 Professional Expertise
-- **Software Engineering:** 5+ years building scalable systems, mobile apps (100K+ users), and production ML pipelines
-- **Data Science & ML:** Advanced expertise in PyTorch, TensorFlow, and specialized GNN frameworks (PyTorch Geometric, DGL)
-- **Research & Innovation:** Published research, conference presentations, and open-source contributions
-- **Business Impact:** Delivered solutions reaching 1,500+ monthly users, optimized systems serving 200+ stakeholders
-- **Agricultural Intelligence:** Yield forecasting, environmental data modeling, and precision agriculture
-- **Behavioral Analytics:** Cross-domain pattern recognition and predictive modeling
-- **Trustworthy AI:** Explainable AI, model interpretability, and robust decision systemss Vashiri"
+### � Research Focus
+**Graph Neural Networks & Cross-Domain ML:** Developing GNN models that generalize across healthcare, agriculture, and behavioral analytics with emphasis on explainability and robustness.
+
+### 💼 Industry Impact
+**Production ML Systems:** Proven track record building scalable software systems, mobile apps (100K+ users), and deploying ML models with measurable business impact.s Vashiri"
 description: "PhD-Track Researcher in Software Engineering & Data Science | MS Student at Marquette University"
 ---
 
@@ -96,14 +67,13 @@ I’m passionate about Software Engineering and Data Science & Analytics, with a
 - **Cybersecurity Analytics:** Threat detection systems and security data analysis
 - **Software Engineering:** Large-scale system architecture, software quality assurance, and DevOps automation
 
-### 🚀 Technical Expertise & Research Interests
+## �️ Technical Expertise
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; margin: 2rem 0;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 2rem 0;">
   <div class="card">
     <h3><i class="fas fa-code" style="color: var(--primary-color);"></i> Software Engineering</h3>
     <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
       <span style="background: #DBEAFE; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">Python</span>
-      <span style="background: #DBEAFE; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">Java</span>
       <span style="background: #DBEAFE; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">JavaScript</span>
       <span style="background: #DBEAFE; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">Flutter/Dart</span>
       <span style="background: #DBEAFE; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">Docker</span>
@@ -112,13 +82,12 @@ I’m passionate about Software Engineering and Data Science & Analytics, with a
   </div>
   
   <div class="card">
-    <h3><i class="fas fa-brain" style="color: var(--secondary-color);"></i> Machine Learning & Data Science</h3>
+    <h3><i class="fas fa-brain" style="color: var(--secondary-color);"></i> Machine Learning</h3>
     <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
       <span style="background: #D1FAE5; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">PyTorch</span>
       <span style="background: #D1FAE5; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">TensorFlow</span>
-      <span style="background: #D1FAE5; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">Pandas</span>
+      <span style="background: #D1FAE5; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">PyTorch Geometric</span>
       <span style="background: #D1FAE5; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">Scikit-learn</span>
-      <span style="background: #D1FAE5; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">SQL/NoSQL</span>
       <span style="background: #D1FAE5; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">MLOps</span>
     </div>
   </div>
@@ -127,8 +96,7 @@ I’m passionate about Software Engineering and Data Science & Analytics, with a
     <h3><i class="fas fa-project-diagram" style="color: var(--accent-color);"></i> Research Specialization</h3>
     <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
       <span style="background: #FEF3C7; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">Graph Neural Networks</span>
-      <span style="background: #FEF3C7; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">PyTorch Geometric</span>
-      <span style="background: #FEF3C7; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">Cross-Domain ML</span>
+      <span style="background: #FEF3C7; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">Cross-Domain Learning</span>
       <span style="background: #FEF3C7; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">Explainable AI</span>
       <span style="background: #FEF3C7; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">Healthcare AI</span>
       <span style="background: #FEF3C7; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid var(--border);">Agricultural ML</span>
@@ -160,30 +128,7 @@ I’m passionate about Software Engineering and Data Science & Analytics, with a
   </ul>
 </div>
 
-## 💼 Professional Experience
-
-<div class="card">
-  <h3><i class="fas fa-laptop-code" style="color: var(--primary-color);"></i> Software Engineer Intern</h3>
-  <p><strong>International Institute of Wisconsin</strong> • <em>September 2025 - Present</em></p>
-  <p>Contributing to software development and improving internal systems through hands-on design and optimization.</p>
-</div>
-
-<div class="card">
-  <h3><i class="fas fa-tools" style="color: var(--secondary-color);"></i> Technical Support Assistant</h3>
-  <p><strong>Marquette University-Law School</strong> • <em>August 2025 - Present</em></p>
-  <p>Providing comprehensive IT support to faculty, staff, and students, resolving technical issues promptly.</p>
-</div>
-
-<div class="card">
-  <h3><i class="fas fa-mobile-alt" style="color: var(--accent-color);"></i> Software Engineer</h3>
-  <p><strong>GrineFalcon Technologies</strong> • <em>May 2020 - July 2025</em></p>
-  <ul>
-    <li><strong>Android App:</strong> Developed and published an Android mobile app using Flutter and Firebase, achieving over 100 downloads in the first month</li>
-    <li><strong>Online Thrift Store:</strong> Launched an online thrift and collectibles store that grew to 1,500+ monthly visitors through SEO and digital marketing</li>
-  </ul>
-</div>
-
-## 🚀 Featured Research Projects
+##  Featured Research Projects
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; margin: 2rem 0;">
   
@@ -220,7 +165,7 @@ I’m passionate about Software Engineering and Data Science & Analytics, with a
   </a>
 </div>
 
-## 📊 Research Methodology & Technical Expertise
+## 🎓 Education & Career Goals
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 2rem 0;">
   <div class="card">
@@ -311,17 +256,32 @@ I’m passionate about Software Engineering and Data Science & Analytics, with a
 ---
 
 <div class="text-center" style="padding: 3rem 2rem; background: linear-gradient(135deg, var(--surface), #EBF4FF); border-radius: var(--border-radius); margin: 2rem 0;">
-  <h3>🎓 Ready for PhD Collaboration</h3>
-  <p style="font-size: 1.1rem; margin-bottom: 2rem;">Seeking research opportunities and academic partnerships in <strong>Graph Neural Networks</strong>, <strong>Cross-Domain Machine Learning</strong>, and <strong>Trustworthy AI</strong></p>
-  <div style="display: flex; justify-content: center; gap: 1rem; margin-top: 1rem; flex-wrap: wrap;">
-    <a href="/contact/" class="btn">
-      <i class="fas fa-university"></i> Discuss Research
+  <h3>🚀 Ready for New Opportunities</h3>
+  <p style="font-size: 1.1rem; margin-bottom: 2rem;">Open to <strong>industry positions</strong> in ML/Data Science and <strong>PhD research opportunities</strong> in Graph Neural Networks & AI</p>
+  
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 2rem 0;">
+    <div>
+      <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">🏢 Industry Roles</h4>
+      <p style="font-size: 0.9rem; margin-bottom: 1rem;">ML Engineer, Data Scientist, Research Engineer</p>
+      <a href="/contact/" class="btn">
+        <i class="fas fa-briefcase"></i> Hire Me
+      </a>
+    </div>
+    <div>
+      <h4 style="color: var(--secondary-color); margin-bottom: 0.5rem;">🎓 PhD Programs</h4>
+      <p style="font-size: 0.9rem; margin-bottom: 1rem;">Graph Neural Networks, Trustworthy AI Research</p>
+      <a href="/contact/" class="btn btn-secondary">
+        <i class="fas fa-university"></i> Collaborate
+      </a>
+    </div>
+  </div>
+  
+  <div style="margin-top: 2rem;">
+    <a href="https://github.com/vashirij" class="btn btn-secondary" target="_blank">
+      <i class="fab fa-github"></i> View Portfolio
     </a>
     <a href="/publications/" class="btn btn-secondary">
-      <i class="fas fa-book-open"></i> View Research
-    </a>
-    <a href="https://github.com/vashirij" class="btn btn-secondary" target="_blank">
-      <i class="fab fa-github"></i> GitHub Portfolio
+      <i class="fas fa-book-open"></i> Research Work
     </a>
   </div>
 </div>
