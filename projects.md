@@ -197,7 +197,7 @@ permalink: /projects/
 ---
 
 <div style="text-center; padding: 4rem 2rem; background: linear-gradient(135deg, #1F2937, #374151); color: white; border-radius: var(--border-radius); margin: 3rem 0; position: relative; overflow: hidden;">
-  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="tech" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="20" cy="20" r="1.5" fill="rgba(255,255,255,0.1)"/><circle cx="80" cy="80" r="1.5" fill="rgba(255,255,255,0.1)"/><rect x="40" y="40" width="20" height="20" fill="rgba(255,255,255,0.05)" rx="2"/></pattern></defs><rect width="100" height="100" fill="url(%23tech)"/></svg>'); opacity: 0.2;"></div>
+  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(135deg, #374151 0%, #1F2937 100%); opacity: 0.2;"></div>
   
   <div style="position: relative; z-index: 1;">
     <h2 style="font-size: 2.5rem; margin-bottom: 1rem; color: white;">🚀 Ready to Build Something Amazing?</h2>
@@ -208,7 +208,7 @@ permalink: /projects/
       From agricultural ML systems helping 200+ farmers to adversarial AI security research - I bring proven expertise in building production-ready solutions that scale and deliver measurable impact.
     </p>
     
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin: 3rem 0; max-width: 900px; margin-left: auto; margin-right: auto;">
+  <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 2rem; margin: 3rem 0; max-width: 900px; margin-left: auto; margin-right: auto; justify-items: center; align-items: stretch;">
       <div style="text-align: center; padding: 2rem; background: rgba(255,255,255,0.1); border-radius: 15px; backdrop-filter: blur(10px);">
         <h3 style="color: #10B981; margin-bottom: 1rem; font-size: 1.3rem;">💼 Industry Innovation</h3>
         <p style="margin-bottom: 1.5rem; opacity: 0.9;">Ready to scale your ML infrastructure or build the next unicorn product?</p>
