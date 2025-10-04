@@ -7,7 +7,7 @@ plugins:
 # Site settings
 title: "James Vashiri"
 email: "james.vashiri@marquette.edu"
-description: "Software Engineer & AI Enthusiast | MS in Computer & Information Science | Milwaukee, WI"
+description: "PhD-Track Researcher | Software Engineering & Data Science Analytics | Marquette University"
 baseurl: "" # 
 url: "https://vashirij.github.io"
 logo: "/assets/images/profile-pic.jpg"
@@ -22,7 +22,7 @@ include:
 # Author
 author:
   name: "James Vashiri"
-  bio: "Software Engineer & AI Enthusiast | MS Student at Marquette University"
+  bio: "PhD-Track Researcher in Software Engineering & Data Science | MS Student at Marquette University"
   location: "Milwaukee, WI"
   github: "vashirij"
   linkedin: "https://linkedin.com/in/jvashiri"

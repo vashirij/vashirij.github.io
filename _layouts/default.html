@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: 'en-US' }}">
+
 <head>
   <meta charset="UTF-8">
   {% seo %}
@@ -10,11 +11,13 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  
+
   <link rel="stylesheet" href="{{ '/assets/css/custom.css?v=' | append: site.github.build_revision | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   {% include head-custom.html %}
@@ -29,16 +32,17 @@
         <img src="{{ '/assets/images/profile-pic.jpg' | relative_url }}" alt="James Vashiri" class="profile-photo">
         <a href="{{ '/' | relative_url }}" class="brand-text">{{ site.title | default: 'James Vashiri' }}</a>
       </div>
-      
+
       <!-- Mobile menu button -->
       <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
         <i class="fas fa-bars"></i>
       </button>
-      
+
       <ul class="nav-menu" id="navMenu">
         <li><a href="{{ '/' | relative_url }}" class="nav-link"><i class="fas fa-home"></i> Home</a></li>
         <li><a href="{{ '/projects/' | relative_url }}" class="nav-link"><i class="fas fa-code"></i> Projects</a></li>
-        <li><a href="{{ '/publications/' | relative_url }}" class="nav-link"><i class="fas fa-book"></i> Publications</a></li>
+        <li><a href="{{ '/publications/' | relative_url }}" class="nav-link"><i class="fas fa-book"></i>
+            Publications</a></li>
         <li><a href="{{ '/contact/' | relative_url }}" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
       </ul>
     </div>
@@ -122,10 +126,10 @@
     }
 
     // Close mobile menu when clicking outside
-    document.addEventListener('click', function(event) {
+    document.addEventListener('click', function (event) {
       const navMenu = document.getElementById('navMenu');
       const mobileBtn = document.querySelector('.mobile-menu-btn');
-      
+
       if (!navMenu.contains(event.target) && !mobileBtn.contains(event.target)) {
         navMenu.classList.remove('active');
       }
@@ -146,4 +150,5 @@
     });
   </script>
 </body>
+
 </html>
