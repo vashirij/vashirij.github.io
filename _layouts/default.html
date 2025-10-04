@@ -4,59 +4,146 @@
   <meta charset="UTF-8">
   {% seo %}
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#1E3A8A">
+  <meta name="theme-color" content="#2563EB">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
   <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
   <link rel="stylesheet" href="{{ '/assets/css/custom.css?v=' | append: site.github.build_revision | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-  <!-- Site CSS -->
-  <!--<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=' | append: site.github.build_revision | relative_url }}">-->
   {% include head-custom.html %}
   <title>{{ page.title | default: site.title }}</title>
 </head>
 
 <body>
- 
-  <!-- Header / Navigation -->
-  <header class="page-header" role="banner">
-    <nav class="navbar">
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
       <div class="nav-brand">
-        <!-- Profile Photo next to site title -->
-        <img src="{{ '/assets/images/profile-pic.jpg' | relative_url }}" alt="Vashiri James" class="profile-photo">
-        <a href="{{ '/' | relative_url }}">{{ site.title | default: 'Vashiri James' }}</a>
+        <img src="{{ '/assets/images/profile-pic.jpg' | relative_url }}" alt="James Vashiri" class="profile-photo">
+        <a href="{{ '/' | relative_url }}" class="brand-text">{{ site.title | default: 'James Vashiri' }}</a>
       </div>
-      <ul class="nav-menu">
-        <li><a href="{{ '/' | relative_url }}">Home</a></li>
-        <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
-        <li><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
-        <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+      
+      <!-- Mobile menu button -->
+      <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+        <i class="fas fa-bars"></i>
+      </button>
+      
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="{{ '/' | relative_url }}" class="nav-link"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="{{ '/projects/' | relative_url }}" class="nav-link"><i class="fas fa-code"></i> Projects</a></li>
+        <li><a href="{{ '/publications/' | relative_url }}" class="nav-link"><i class="fas fa-book"></i> Publications</a></li>
+        <li><a href="{{ '/contact/' | relative_url }}" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
       </ul>
-    </nav>
+    </div>
+  </nav>
 
-    <h1 class="project-name">{{ page.title | default: site.title }}</h1>
-    <h2 class="project-tagline">{{ page.description | default: 'Partnering with Businesses to Deliver Ethical, Data-Driven & Secure Solutions' }}</h2>
-
-    {% if site.github.is_project_page %}
-      <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-    {% endif %}
-    {% if site.show_downloads %}
-      <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-      <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
-    {% endif %}
+  <!-- Hero Section -->
+  <header class="hero-section">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1 class="hero-title">{{ page.title | default: site.title }}</h1>
+        <p class="hero-subtitle">{{ page.description | default: 'Software Engineer & AI Enthusiast' }}</p>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <i class="fas fa-graduation-cap"></i>
+            <span>MS Student</span>
+          </div>
+          <div class="stat-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Milwaukee, WI</span>
+          </div>
+          <div class="stat-item">
+            <i class="fas fa-briefcase"></i>
+            <span>Software Engineer</span>
+          </div>
+        </div>
+      </div>
+    </div>
   </header>
 
   <!-- Main Content -->
-  <main id="content" class="main-content" role="main">
-    {{ content }}
+  <main class="main-content">
+    <div class="container">
+      {{ content }}
+    </div>
   </main>
 
   <!-- Footer -->
   <footer class="site-footer">
-    <p>&copy; 2025 Vashiri James. All rights reserved.</p>
-    <p>Delivering ethical, data-driven solutions in IoT, Machine Learning, Cybersecurity & Data Science.</p>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>James Vashiri</h3>
+        <p>Software Engineer & AI Enthusiast</p>
+        <div class="social-links">
+          <a href="https://github.com/vashirij" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://linkedin.com/in/jvashiri" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="mailto:james.vashiri@marquette.edu" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="{{ '/' | relative_url }}">Home</a></li>
+          <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
+          <li><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
+          <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Contact</h4>
+        <p><i class="fas fa-envelope"></i> james.vashiri@marquette.edu</p>
+        <p><i class="fas fa-phone"></i> (414) 388-5769</p>
+        <p><i class="fas fa-map-marker-alt"></i> Milwaukee, WI</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 James Vashiri. All rights reserved.</p>
+    </div>
   </footer>
+
+  <!-- JavaScript for mobile menu -->
+  <script>
+    function toggleMobileMenu() {
+      const navMenu = document.getElementById('navMenu');
+      navMenu.classList.toggle('active');
+    }
+
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', function(event) {
+      const navMenu = document.getElementById('navMenu');
+      const mobileBtn = document.querySelector('.mobile-menu-btn');
+      
+      if (!navMenu.contains(event.target) && !mobileBtn.contains(event.target)) {
+        navMenu.classList.remove('active');
+      }
+    });
+
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+  </script>
 </body>
 </html>
