@@ -1,12 +1,16 @@
 ---
-layout: default
+layout: d    <h1 style="font-size: 3rem; margin-bottom: 1rem; color: #FFFFFF; font-weight: 800; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">🚀 James Vashiri</h1>
+    <p style="font-size: 1.4rem; margin-bottom: 1rem; color: #F3F4F6; font-weight: 600; text-shadow: 0 1px 2px rgba(0,0,0,0.3);">ML Engineer & AI Research Scientist</p>
+    <p style="font-size: 1.1rem; margin-bottom: 2rem; color: #E5E7EB; max-width: 600px; margin-left: auto; margin-right: auto; text-shadow: 0 1px 2px rgba(0,0,0,0.3);">
+      5+ years building production ML systems • MS Computer Science • Ready for your next breakthrough project
+    </p>t
 title: "James Vashiri"
 description: "Software Engineer & Data Scientist | MS CIS Marquette University "
 ---
 
 <!-- Hero Section with Enhanced CTA -->
-<div style="text-align: center; padding: 4rem 2rem; background: linear-gradient(135deg, #1F2937, #374151); color: white; border-radius: var(--border-radius); margin-bottom: 3rem; position: relative; overflow: hidden;">
-  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: radial-gradient(circle at 20% 20%, rgba(255,255,255,0.1) 1px, transparent 1px), radial-gradient(circle at 80% 80%, rgba(255,255,255,0.1) 1px, transparent 1px), radial-gradient(circle at 60% 30%, rgba(255,255,255,0.08) 0.5px, transparent 0.5px); background-size: 100px 100px; opacity: 0.3;"></div>
+<div style="text-align: center; padding: 4rem 2rem; background: linear-gradient(135deg, #1F2937, #374151); color: white; border-radius: var(--border-radius); margin-bottom: 3rem; position: relative; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: radial-gradient(circle at 20% 20%, rgba(255,255,255,0.15) 2px, transparent 2px), radial-gradient(circle at 80% 80%, rgba(255,255,255,0.15) 2px, transparent 2px), radial-gradient(circle at 60% 30%, rgba(255,255,255,0.1) 1px, transparent 1px); background-size: 80px 80px; opacity: 0.6;"></div>
   
   <div style="position: relative; z-index: 1;">
     <img src="/assets/images/profile-pic.jpg" alt="James Vashiri" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 5px solid rgba(255,255,255,0.3); margin-bottom: 2rem; box-shadow: 0 8px 32px rgba(0,0,0,0.3);">
@@ -41,7 +45,7 @@ description: "Software Engineer & Data Scientist | MS CIS Marquette University "
       </div>
     </div>
     
-    <p style="font-size: 1rem; opacity: 0.7; margin-top: 2rem;">⚡ Available for immediate start • 🌍 Open to remote/relocation • 📞 Response within 24 hours</p>
+    <p style="font-size: 1rem; color: #E5E7EB; margin-top: 2rem; text-shadow: 0 1px 2px rgba(0,0,0,0.3);">⚡ Available for immediate start • 🌍 Open to remote/relocation • 📞 Response within 24 hours</p>
   </div>
 </div>
 
@@ -302,15 +306,15 @@ I am open to **PhD research collaborations** and **industry opportunities** in M
 
 ---
 
-<div style="text-align: center; padding: 4rem 2rem; background: linear-gradient(135deg, #1F2937, #374151); color: white; border-radius: var(--border-radius); margin: 3rem 0; position: relative; overflow: hidden;">
-  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: radial-gradient(circle at 25% 25%, rgba(255,255,255,0.1) 2px, transparent 2px), radial-gradient(circle at 75% 75%, rgba(255,255,255,0.1) 2px, transparent 2px), linear-gradient(45deg, rgba(255,255,255,0.05) 1px, transparent 1px); background-size: 100px 100px; opacity: 0.2;"></div>
+<div style="text-align: center; padding: 4rem 2rem; background: linear-gradient(135deg, #1F2937, #374151); color: white; border-radius: var(--border-radius); margin: 3rem 0; position: relative; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: radial-gradient(circle at 25% 25%, rgba(255,255,255,0.12) 3px, transparent 3px), radial-gradient(circle at 75% 75%, rgba(255,255,255,0.12) 3px, transparent 3px), linear-gradient(45deg, rgba(255,255,255,0.08) 2px, transparent 2px); background-size: 90px 90px; opacity: 0.5;"></div>
   
   <div style="position: relative; z-index: 1;">
-    <h2 style="font-size: 2.5rem; margin-bottom: 1rem; color: white;">🌟 Ready to Transform Your Business?</h2>
-    <p style="font-size: 1.3rem; margin-bottom: 1rem; opacity: 0.9;">
-      Let's discuss how my <strong>proven ML expertise</strong> and <strong>research innovation</strong> can drive your next breakthrough
+    <h2 style="font-size: 2.5rem; margin-bottom: 1rem; color: #FFFFFF; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">🌟 Ready to Transform Your Business?</h2>
+    <p style="font-size: 1.3rem; margin-bottom: 1rem; color: #F3F4F6; text-shadow: 0 1px 2px rgba(0,0,0,0.3);">
+      Let's discuss how my <strong style="color: #FFFFFF;">proven ML expertise</strong> and <strong style="color: #FFFFFF;">research innovation</strong> can drive your next breakthrough
     </p>
-    <p style="font-size: 1.1rem; margin-bottom: 3rem; opacity: 0.8; max-width: 700px; margin-left: auto; margin-right: auto;">
+    <p style="font-size: 1.1rem; margin-bottom: 3rem; color: #E5E7EB; max-width: 700px; margin-left: auto; margin-right: auto; text-shadow: 0 1px 2px rgba(0,0,0,0.3);">
       Whether you're scaling ML infrastructure, advancing AI research, or building the next generation of intelligent systems, I bring the technical depth and practical experience to make it happen.
     </p>
     
@@ -345,7 +349,7 @@ I am open to **PhD research collaborations** and **industry opportunities** in M
         </a>
       </div>
       
-      <p style="font-size: 1rem; opacity: 0.7; margin: 0;">🚀 Fast Response • 📅 Available Immediately • 🌍 Remote Ready • 📱 Let's Build the Future</p>
+      <p style="font-size: 1rem; color: #E5E7EB; margin: 0; text-shadow: 0 1px 2px rgba(0,0,0,0.3);">🚀 Fast Response • 📅 Available Immediately • 🌍 Remote Ready • 📱 Let's Build the Future</p>
     </div>
   </div>
 </div>
