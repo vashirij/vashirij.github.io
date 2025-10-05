@@ -1,15 +1,15 @@
 ---
 layout: default
-title: "Data Science & Software Engineering Research Publications | James Vashiri"
-description: "PhD research in Data Science, Software Engineering, and AI. Specializing in machine learning, cross-platform development, cybersecurity, and behavioral analytics with real-world applications."
+title: "Data Science Publications | James Vashiri"
+description: "PhD applicant in Data Science, Specializing in machine learning, cross-platform development, cybersecurity, and behavioral analytics with real-world applications."
 keywords: "data science, software engineering, machine learning, AI research, cross-platform development, cybersecurity, behavioral analytics, PhD research, academic publications"
 permalink: /publications/
 ---
-# 🔬 Data Science & Software Engineering Research Publications
+# 🔬 Data Science Publications
 
 <div style="text-align: left; margin-bottom: 3rem;">
   <p style="font-size: 1.2rem; color: var(--text-secondary); max-width: 700px; margin: 0 auto;">
-    PhD-track research in <strong>Data Science</strong> and <strong>Software Engineering</strong> with expertise in machine learning, behavioral analytics, cybersecurity, and cross-platform mobile development. Advancing AI research through practical applications in agricultural technology and real-time systems.
+    PhD-track research in <strong>Data Science</strong>  with expertise in machine learning, behavioral analytics, cybersecurity, and cross-platform mobile development. Advancing AI research through practical applications in agricultural technology and real-time systems.
   </p>
 </div>
 
@@ -17,36 +17,50 @@ permalink: /publications/
 
 ### Data Science & Software Engineering Specializations
 
-<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 2rem; margin: 3rem 0; max-width: 900px; margin-left: auto; margin-right: auto; justify-items: center; align-items: stretch;">
-  <div style="text-align: center; padding: 2rem; background: rgba(255,255,255,0.95); border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border: 1px solid #E5E7EB;">
-    <h3 style="color: #2563EB; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fas fa-cogs" style="margin-right: 0.5rem;"></i>Software Engineering Research</h3>
-    <ul style="margin: 0; padding-left: 1.2rem; line-height: 1.8; text-align: left;">
-      <li style="margin-bottom: 0.5rem;">Cross-platform mobile app development frameworks</li>
-      <li style="margin-bottom: 0.5rem;">Real-time software system integration</li>
-      <li style="margin-bottom: 0.5rem;">Software quality assurance methodologies</li>
-      <li style="margin-bottom: 0;">DevOps automation and scalable software architecture</li>
-    </ul>
-  </div>
-  
-  <div style="text-align: center; padding: 2rem; background: rgba(255,255,255,0.95); border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border: 1px solid #E5E7EB;">
-    <h3 style="color: #059669; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fas fa-chart-line" style="margin-right: 0.5rem;"></i>Data Science & Machine Learning</h3>
-    <ul style="margin: 0; padding-left: 1.2rem; line-height: 1.8; text-align: left;">
-      <li style="margin-bottom: 0.5rem;">Data science for behavioral pattern recognition</li>
-      <li style="margin-bottom: 0.5rem;">Statistical modeling and predictive analytics</li>
-      <li style="margin-bottom: 0.5rem;">Time-series data analysis for decision support</li>
-      <li style="margin-bottom: 0;">Machine learning applications in data science</li>
-    </ul>
-  </div>
-  
-  <div style="text-align: center; padding: 2rem; background: rgba(255,255,255,0.95); border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border: 1px solid #E5E7EB;">
-    <h3 style="color: #D97706; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fas fa-shield-alt" style="margin-right: 0.5rem;"></i>AI Security & Data Science Applications</h3>
-    <ul style="margin: 0; padding-left: 1.2rem; line-height: 1.8; text-align: left;">
-      <li style="margin-bottom: 0.5rem;">AI adversarial attack detection using data science</li>
-      <li style="margin-bottom: 0.5rem;">Robust machine learning system engineering</li>
-      <li style="margin-bottom: 0.5rem;">Cybersecurity data analysis and threat modeling</li>
-      <li style="margin-bottom: 0;">AI software system reliability assessment</li>
-    </ul>
-  </div>
+<div style="overflow-x: auto; margin: 2rem 0; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <table style="width: 100%; border-collapse: collapse; background: white; border-radius: 10px; overflow: hidden;">
+    <thead>
+      <tr style="background: linear-gradient(135deg, #1F2937, #374151); color: white;">
+        <th style="padding: 1.5rem; text-align: left; font-size: 1.1rem; font-weight: 700; border-right: 1px solid rgba(255,255,255,0.1);">
+          <i class="fas fa-cogs" style="margin-right: 0.5rem; color: #2563EB;"></i>Software Engineering Research
+        </th>
+        <th style="padding: 1.5rem; text-align: left; font-size: 1.1rem; font-weight: 700; border-right: 1px solid rgba(255,255,255,0.1);">
+          <i class="fas fa-chart-line" style="margin-right: 0.5rem; color: #059669;"></i>Data Science & Machine Learning
+        </th>
+        <th style="padding: 1.5rem; text-align: left; font-size: 1.1rem; font-weight: 700;">
+          <i class="fas fa-shield-alt" style="margin-right: 0.5rem; color: #D97706;"></i>AI Security & Data Science Applications
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background: #F9FAFB;">
+        <td style="padding: 1.5rem; vertical-align: top; border-right: 1px solid #E5E7EB;">
+          <ul style="margin: 0; padding-left: 1.2rem; line-height: 1.8;">
+            <li style="margin-bottom: 0.5rem;">Cross-platform mobile app development frameworks</li>
+            <li style="margin-bottom: 0.5rem;">Real-time software system integration</li>
+            <li style="margin-bottom: 0.5rem;">Software quality assurance methodologies</li>
+            <li style="margin-bottom: 0;">DevOps automation and scalable software architecture</li>
+          </ul>
+        </td>
+        <td style="padding: 1.5rem; vertical-align: top; border-right: 1px solid #E5E7EB;">
+          <ul style="margin: 0; padding-left: 1.2rem; line-height: 1.8;">
+            <li style="margin-bottom: 0.5rem;">Data science for behavioral pattern recognition</li>
+            <li style="margin-bottom: 0.5rem;">Statistical modeling and predictive analytics</li>
+            <li style="margin-bottom: 0.5rem;">Time-series data analysis for decision support</li>
+            <li style="margin-bottom: 0;">Machine learning applications in data science</li>
+          </ul>
+        </td>
+        <td style="padding: 1.5rem; vertical-align: top;">
+          <ul style="margin: 0; padding-left: 1.2rem; line-height: 1.8;">
+            <li style="margin-bottom: 0.5rem;">AI adversarial attack detection using data science</li>
+            <li style="margin-bottom: 0.5rem;">Robust machine learning system engineering</li>
+            <li style="margin-bottom: 0.5rem;">Cybersecurity data analysis and threat modeling</li>
+            <li style="margin-bottom: 0;">AI software system reliability assessment</li>
+          </ul>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 ## 📝 Data Science & Software Engineering Research Projects
