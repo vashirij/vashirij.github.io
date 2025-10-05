@@ -209,30 +209,44 @@ permalink: /publications/
       Join me in advancing Graph Neural Networks, Trustworthy AI, and cross-domain machine learning. Together, we can publish impactful research that transforms industries and improves lives.
     </p>
     
-    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 2rem; margin: 3rem 0; max-width: 900px; margin-left: auto; margin-right: auto; justify-items: center; align-items: stretch;">
-      <div style="text-align: center; padding: 2rem; background: rgba(255,255,255,0.1); border-radius: 15px; backdrop-filter: blur(10px);">
-        <h3 style="color: #7C3AED; margin-bottom: 1rem; font-size: 1.3rem;">🏛️ Faculty Collaborations</h3>
-        <p style="margin-bottom: 1.5rem; opacity: 0.9;">Seeking PhD mentorship or research partnerships at top-tier institutions</p>
-        <a href="mailto:james.vashiri@marquette.edu?subject=PhD%20Research%20Mentorship%20Opportunity&body=Hi%20James,%0A%0AI'm%20interested%20in%20discussing%20PhD%20research%20mentorship%20opportunities%20in%20AI.%0A%0AInstitution:%0AResearch%20focus:%0AProgram%20timeline:%0AGRE/Application%20requirements:%0A%0ALet's%20explore%20how%20we%20can%20advance%20AI%20research%20together!" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 1rem 2rem; background: linear-gradient(135deg, #7C3AED, #6D28D9); color: white; text-decoration: none; border-radius: 10px; font-weight: 700; font-size: 1.1rem; transition: all 0.3s ease; box-shadow: 0 4px 8px rgba(124, 58, 237, 0.4); text-transform: uppercase;" onmouseover="this.style.transform='translateY(-3px) scale(1.05)'; this.style.boxShadow='0 6px 12px rgba(124, 58, 237, 0.6)'" onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.boxShadow='0 4px 8px rgba(124, 58, 237, 0.4)'">
-          <i class="fas fa-university"></i> PhD Mentor
-        </a>
-      </div>
-      
-      <div style="text-align: center; padding: 2rem; background: rgba(255,255,255,0.1); border-radius: 15px; backdrop-filter: blur(10px);">
-        <h3 style="color: #DC2626; margin-bottom: 1rem; font-size: 1.3rem;">🏢 Industry Research</h3>
-        <p style="margin-bottom: 1.5rem; opacity: 0.9;">Apply cutting-edge research to real-world problems at scale</p>
-        <a href="mailto:james.vashiri@marquette.edu?subject=Industry%20Research%20Scientist%20Role&body=Hi%20James,%0A%0AWe're%20looking%20for%20a%20research%20scientist%20to%20join%20our%20AI%20team%20and%20bridge%20research%20and%20production.%0A%0ACompany:%0ARole%20focus:%0AResearch%20areas:%0ATeam%20size:%0A%0ALet's%20discuss%20how%20your%20expertise%20can%20drive%20our%20innovation!" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 1rem 2rem; background: linear-gradient(135deg, #DC2626, #B91C1C); color: white; text-decoration: none; border-radius: 10px; font-weight: 700; font-size: 1.1rem; transition: all 0.3s ease; box-shadow: 0 4px 8px rgba(220, 38, 38, 0.4); text-transform: uppercase;" onmouseover="this.style.transform='translateY(-3px) scale(1.05)'; this.style.boxShadow='0 6px 12px rgba(220, 38, 38, 0.6)'" onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.boxShadow='0 4px 8px rgba(220, 38, 38, 0.4)'">
-          <i class="fas fa-flask"></i> Research Role
-        </a>
-      </div>
-      
-      <div style="text-align: center; padding: 2rem; background: rgba(255,255,255,0.1); border-radius: 15px; backdrop-filter: blur(10px);">
-        <h3 style="color: #10B981; margin-bottom: 1rem; font-size: 1.3rem;">📝 Co-Authorship</h3>
-        <p style="margin-bottom: 1.5rem; opacity: 0.9;">Collaborate on high-impact publications and conference papers</p>
-        <a href="mailto:james.vashiri@marquette.edu?subject=Research%20Collaboration%20-%20Co-Authorship&body=Hi%20James,%0A%0AI'd%20like%20to%20collaborate%20on%20a%20research%20paper%20in%20AI/ML.%0A%0AResearch%20topic:%0ATarget%20venue:%0ATimeline:%0AYour%20contribution:%0A%0ALet's%20create%20impactful%20research%20together!" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 1rem 2rem; background: linear-gradient(135deg, #10B981, #059669); color: white; text-decoration: none; border-radius: 10px; font-weight: 700; font-size: 1.1rem; transition: all 0.3s ease; box-shadow: 0 4px 8px rgba(16, 185, 129, 0.4); text-transform: uppercase;" onmouseover="this.style.transform='translateY(-3px) scale(1.05)'; this.style.boxShadow='0 6px 12px rgba(16, 185, 129, 0.6)'" onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.boxShadow='0 4px 8px rgba(16, 185, 129, 0.4)'">
-          <i class="fas fa-pen-nib"></i> Co-Author
-        </a>
-      </div>
+    <div style="overflow-x: auto; margin: 2rem 0; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <table style="width: 100%; border-collapse: collapse; background: white; border-radius: 10px; overflow: hidden;">
+        <thead>
+          <tr style="background: linear-gradient(135deg, #1F2937, #374151); color: white;">
+            <th style="padding: 1.5rem; text-align: left; font-size: 1.1rem; font-weight: 700; border-right: 1px solid rgba(255,255,255,0.1);">
+              <i class="fas fa-university" style="margin-right: 0.5rem; color: #7C3AED;"></i>🏛️ Faculty Collaborations
+            </th>
+            <th style="padding: 1.5rem; text-align: left; font-size: 1.1rem; font-weight: 700; border-right: 1px solid rgba(255,255,255,0.1);">
+              <i class="fas fa-flask" style="margin-right: 0.5rem; color: #DC2626;"></i>🏢 Industry Research
+            </th>
+            <th style="padding: 1.5rem; text-align: left; font-size: 1.1rem; font-weight: 700;">
+              <i class="fas fa-pen-nib" style="margin-right: 0.5rem; color: #10B981;"></i>📝 Co-Authorship
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #F9FAFB;">
+            <td style="padding: 1.5rem; vertical-align: top; border-right: 1px solid #E5E7EB;">
+              <p style="margin-bottom: 1.5rem; line-height: 1.6;">Seeking PhD mentorship or research partnerships at top-tier institutions</p>
+              <a href="mailto:james.vashiri@marquette.edu?subject=PhD%20Research%20Mentorship%20Opportunity&body=Hi%20James,%0A%0AI'm%20interested%20in%20discussing%20PhD%20research%20mentorship%20opportunities%20in%20AI.%0A%0AInstitution:%0AResearch%20focus:%0AProgram%20timeline:%0AGRE/Application%20requirements:%0A%0ALet's%20explore%20how%20we%20can%20advance%20AI%20research%20together!" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #7C3AED, #6D28D9); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(124, 58, 237, 0.3);" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(124, 58, 237, 0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(124, 58, 237, 0.3)'">
+                <i class="fas fa-university"></i> PhD Mentor
+              </a>
+            </td>
+            <td style="padding: 1.5rem; vertical-align: top; border-right: 1px solid #E5E7EB;">
+              <p style="margin-bottom: 1.5rem; line-height: 1.6;">Apply cutting-edge research to real-world problems at scale</p>
+              <a href="mailto:james.vashiri@marquette.edu?subject=Industry%20Research%20Scientist%20Role&body=Hi%20James,%0A%0AWe're%20looking%20for%20a%20research%20scientist%20to%20join%20our%20AI%20team%20and%20bridge%20research%20and%20production.%0A%0ACompany:%0ARole%20focus:%0AResearch%20areas:%0ATeam%20size:%0A%0ALet's%20discuss%20how%20your%20expertise%20can%20drive%20our%20innovation!" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #DC2626, #B91C1C); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(220, 38, 38, 0.3);" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(220, 38, 38, 0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(220, 38, 38, 0.3)'">
+                <i class="fas fa-flask"></i> Research Role
+              </a>
+            </td>
+            <td style="padding: 1.5rem; vertical-align: top;">
+              <p style="margin-bottom: 1.5rem; line-height: 1.6;">Collaborate on high-impact publications and conference papers</p>
+              <a href="mailto:james.vashiri@marquette.edu?subject=Research%20Collaboration%20-%20Co-Authorship&body=Hi%20James,%0A%0AI'd%20like%20to%20collaborate%20on%20a%20research%20paper%20in%20AI/ML.%0A%0AResearch%20topic:%0ATarget%20venue:%0ATimeline:%0AYour%20contribution:%0A%0ALet's%20create%20impactful%20research%20together!" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #10B981, #059669); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(16, 185, 129, 0.3);" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(16, 185, 129, 0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(16, 185, 129, 0.3)'">
+                <i class="fas fa-pen-nib"></i> Co-Author
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
     
     <div style="margin-top: 3rem; padding: 2rem; background: rgba(255,255,255,0.05); border-radius: 15px; border-left: 5px solid #F59E0B;">
