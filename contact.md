@@ -26,8 +26,8 @@ permalink: /contact/
 
 I'm actively seeking both **industry positions** in ML/Data Science and **PhD research opportunities** in Graph Neural Networks. Whether you're a hiring manager, faculty member, or fellow researcher, I'd love to connect!
 
-**📧 Email:** james.vashiri@marquette.edu  
-**📞 Phone:** (414) 388-5769  
+**📧 Email:** grinefalcon2@gmail.com  
+
 **📍 Location:** Milwaukee, WI (Open to relocation)
 
 **🔗 Professional Networks:**
@@ -90,35 +90,37 @@ I'm passionate about advancing the field through rigorous research:
   </div>
   <div style="text-align: center;">
     <h4 style="color: #92400E; margin-bottom: 0.5rem;">⏰ Available Soon</h4>
-    <p style="margin: 0; color: #78350F;">Summer 2026 for industry, Fall 2027 for PhD</p>
+    <p style="margin: 0; color: #78350F;">Summer 2026 for industry, Fall 2026 for PhD</p>
   </div>
 </div>
 
-## 🤝 Let's Connect
-
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin: 2rem 0;">
-  <div class="card">
-    <h3><i class="fas fa-briefcase" style="color: var(--primary-color);"></i> Industry Recruiting</h3>
-    <p>Full-time opportunities in ML/Data Science starting Summer 2026</p>
-    <a href="mailto:james.vashiri@marquette.edu?subject=Industry%20Opportunity" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #2563EB, #1D4ED8); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(37, 99, 235, 0.3);" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(37, 99, 235, 0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(37, 99, 235, 0.3)'">
-      <i class="fas fa-handshake"></i> Discuss Role
-    </a>
-  </div>
+<div style="text-align: center; margin: 3rem 0;">
+  <h2 style="font-size: 2.2rem; margin-bottom: 2rem; color: #1F2937;">🤝 Let's Connect</h2>
   
-  <div class="card">
-    <h3><i class="fas fa-university" style="color: var(--secondary-color);"></i> Academic Collaboration</h3>
-    <p>PhD programs, research partnerships, academic mentorship</p>
-    <a href="mailto:james.vashiri@marquette.edu?subject=Academic%20Collaboration" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #7C3AED, #6D28D9); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(124, 58, 237, 0.3);" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(124, 58, 237, 0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(124, 58, 237, 0.3)'">
-      <i class="fas fa-graduation-cap"></i> Research Together
-    </a>
-  </div>
-  
-  <div class="card">
-    <h3><i class="fas fa-coffee" style="color: var(--accent-color);"></i> Networking</h3>
-    <p>Professional networking, project discussions, knowledge sharing</p>
-    <a href="mailto:james.vashiri@marquette.edu?subject=Professional%20Networking" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #F59E0B, #D97706); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(245, 158, 11, 0.3);" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(245, 158, 11, 0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(245, 158, 11, 0.3)'">
-      <i class="fas fa-users"></i> Connect
-    </a>
+  <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 2rem; margin: 2rem 0; max-width: 900px; margin-left: auto; margin-right: auto; justify-items: center; align-items: stretch;">
+    <div class="card">
+      <h3><i class="fas fa-briefcase" style="color: var(--primary-color);"></i> Industry Recruiting</h3>
+      <p>Full-time opportunities in ML/Data Science starting Summer 2026</p>
+      <a href="mailto:grinefalcon2@gmail.com?subject=Industry%20Opportunity" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #2563EB, #1D4ED8); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(37, 99, 235, 0.3);" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(37, 99, 235, 0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(37, 99, 235, 0.3)'">
+        <i class="fas fa-handshake"></i> Discuss Role
+      </a>
+    </div>
+    
+    <div class="card">
+      <h3><i class="fas fa-university" style="color: var(--secondary-color);"></i> Academic Collaboration</h3>
+      <p>PhD programs, research partnerships, academic mentorship</p>
+      <a href="mailto:james.vashiri@marquette.edu?subject=Academic%20Collaboration" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #7C3AED, #6D28D9); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(124, 58, 237, 0.3);" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(124, 58, 237, 0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(124, 58, 237, 0.3)'">
+        <i class="fas fa-graduation-cap"></i> Research Together
+      </a>
+    </div>
+    
+    <div class="card">
+      <h3><i class="fas fa-coffee" style="color: var(--accent-color);"></i> Networking</h3>
+      <p>Professional networking, project discussions, knowledge sharing</p>
+      <a href="mailto:james.vashiri@marquette.edu?subject=Professional%20Networking" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #F59E0B, #D97706); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(245, 158, 11, 0.3);" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(245, 158, 11, 0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(245, 158, 11, 0.3)'">
+        <i class="fas fa-users"></i> Connect
+      </a>
+    </div>
   </div>
 </div>
 
