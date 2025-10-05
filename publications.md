@@ -202,11 +202,11 @@ permalink: /publications/
   
   <div style="position: relative; z-index: 1;">
     <h2 style="font-size: 3rem; margin-bottom: 1.5rem; color: #FFFFFF; text-shadow: 0 4px 8px rgba(0,0,0,0.8), 0 2px 4px rgba(0,0,0,0.6); font-weight: 800; letter-spacing: 0.5px;">🎓 Advance AI Research Together</h2>
-    <p style="font-size: 1.3rem; margin-bottom: 1rem; opacity: 0.9;">
-      Ready to shape the future of <strong>AI research</strong> and make groundbreaking discoveries?
+    <p style="font-size: 1.5rem; margin-bottom: 1.5rem; color: #FFFFFF; text-shadow: 0 2px 4px rgba(0,0,0,0.7); font-weight: 700; opacity: 1;">
+      Ready to shape the future of <strong style="color: #60A5FA; text-shadow: 0 0 10px rgba(96, 165, 250, 0.5);">AI research</strong> and make groundbreaking discoveries?
     </p>
-    <p style="font-size: 1.1rem; margin-bottom: 3rem; opacity: 0.8; max-width: 700px; margin-left: auto; margin-right: auto;">
-      Join me in advancing Graph Neural Networks, Trustworthy AI, and cross-domain machine learning. Together, we can publish impactful research that transforms industries and improves lives.
+    <p style="font-size: 1.3rem; margin-bottom: 3rem; color: #F3F4F6; text-shadow: 0 2px 4px rgba(0,0,0,0.6); font-weight: 600; opacity: 1; max-width: 800px; margin-left: auto; margin-right: auto; line-height: 1.6;">
+      Join me in advancing <strong style="color: #34D399;">Graph Neural Networks</strong>, <strong style="color: #F59E0B;">Trustworthy AI</strong>, and <strong style="color: #EC4899;">cross-domain machine learning</strong>. Together, we can publish impactful research that transforms industries and improves lives.
     </p>
     
     <div style="overflow-x: auto; margin: 2rem 0; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
