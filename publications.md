@@ -162,28 +162,41 @@ permalink: /publications/
 
 ## 📚 Academic Contributions & Skills
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 2rem 0;">
-  <div class="card">
-    <h3><i class="fas fa-microscope" style="color: var(--secondary-color);"></i> Research Methodologies</h3>
-    <ul>
-      <li>Quantitative & Qualitative Analysis</li>
-      <li>Experimental Design & A/B Testing</li>
-      <li>Statistical Modeling & Hypothesis Testing</li>
-      <li>Longitudinal Data Analysis</li>
-      <li>Mixed-Methods Research Design</li>
-    </ul>
-  </div>
-  
-  <div class="card">
-    <h3><i class="fas fa-chart-bar" style="color: var(--accent-color);"></i> Technical Research Skills</h3>
-    <ul>
-      <li>Machine Learning Model Development</li>
-      <li>Large-Scale Data Processing</li>
-      <li>Performance Benchmarking</li>
-      <li>System Architecture Design</li>
-      <li>Open-Source Software Development</li>
-    </ul>
-  </div>
+<div style="overflow-x: auto; margin: 2rem 0; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <table style="width: 100%; border-collapse: collapse; background: white; border-radius: 10px; overflow: hidden;">
+    <thead>
+      <tr style="background: linear-gradient(135deg, #1F2937, #374151); color: white;">
+        <th style="padding: 1.5rem; text-align: left; font-size: 1.1rem; font-weight: 700; border-right: 1px solid rgba(255,255,255,0.1);">
+          <i class="fas fa-microscope" style="margin-right: 0.5rem; color: #34D399;"></i>Research Methodologies
+        </th>
+        <th style="padding: 1.5rem; text-align: left; font-size: 1.1rem; font-weight: 700;">
+          <i class="fas fa-chart-bar" style="margin-right: 0.5rem; color: #F59E0B;"></i>Technical Research Skills
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background: #F9FAFB;">
+        <td style="padding: 1.5rem; vertical-align: top; border-right: 1px solid #E5E7EB;">
+          <ul style="margin: 0; padding-left: 1.2rem; line-height: 1.8;">
+            <li style="margin-bottom: 0.5rem;">Quantitative & Qualitative Analysis</li>
+            <li style="margin-bottom: 0.5rem;">Experimental Design & A/B Testing</li>
+            <li style="margin-bottom: 0.5rem;">Statistical Modeling & Hypothesis Testing</li>
+            <li style="margin-bottom: 0.5rem;">Longitudinal Data Analysis</li>
+            <li style="margin-bottom: 0;">Mixed-Methods Research Design</li>
+          </ul>
+        </td>
+        <td style="padding: 1.5rem; vertical-align: top;">
+          <ul style="margin: 0; padding-left: 1.2rem; line-height: 1.8;">
+            <li style="margin-bottom: 0.5rem;">Machine Learning Model Development</li>
+            <li style="margin-bottom: 0.5rem;">Large-Scale Data Processing</li>
+            <li style="margin-bottom: 0.5rem;">Performance Benchmarking</li>
+            <li style="margin-bottom: 0.5rem;">System Architecture Design</li>
+            <li style="margin-bottom: 0;">Open-Source Software Development</li>
+          </ul>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 ## 🏆 Research Impact & Metrics
