@@ -15,50 +15,36 @@ permalink: /publications/
 
 ### Primary Research Areas
 
-<div style="overflow-x: auto; margin: 2rem 0; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  <table style="width: 100%; border-collapse: collapse; background: white; border-radius: 10px; overflow: hidden;">
-    <thead>
-      <tr style="background: linear-gradient(135deg, #1F2937, #374151); color: white;">
-        <th style="padding: 1.5rem; text-align: left; font-size: 1.1rem; font-weight: 700; border-right: 1px solid rgba(255,255,255,0.1);">
-          <i class="fas fa-cogs" style="margin-right: 0.5rem; color: #60A5FA;"></i>Software Engineering
-        </th>
-        <th style="padding: 1.5rem; text-align: left; font-size: 1.1rem; font-weight: 700; border-right: 1px solid rgba(255,255,255,0.1);">
-          <i class="fas fa-chart-line" style="margin-right: 0.5rem; color: #34D399;"></i>Data Science & Analytics
-        </th>
-        <th style="padding: 1.5rem; text-align: left; font-size: 1.1rem; font-weight: 700;">
-          <i class="fas fa-shield-alt" style="margin-right: 0.5rem; color: #F59E0B;"></i>AI Security & Robustness
-        </th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr style="background: #F9FAFB;">
-        <td style="padding: 1.5rem; vertical-align: top; border-right: 1px solid #E5E7EB;">
-          <ul style="margin: 0; padding-left: 1.2rem; line-height: 1.8;">
-            <li style="margin-bottom: 0.5rem;">Cross-platform mobile development frameworks</li>
-            <li style="margin-bottom: 0.5rem;">Real-time system integration and optimization</li>
-            <li style="margin-bottom: 0.5rem;">Software quality assurance methodologies</li>
-            <li style="margin-bottom: 0;">DevOps automation and scalability</li>
-          </ul>
-        </td>
-        <td style="padding: 1.5rem; vertical-align: top; border-right: 1px solid #E5E7EB;">
-          <ul style="margin: 0; padding-left: 1.2rem; line-height: 1.8;">
-            <li style="margin-bottom: 0.5rem;">Behavioral pattern recognition and prediction</li>
-            <li style="margin-bottom: 0.5rem;">Statistical modeling for social impact</li>
-            <li style="margin-bottom: 0.5rem;">Time-series analysis for decision support</li>
-            <li style="margin-bottom: 0;">Machine learning in domain-specific applications</li>
-          </ul>
-        </td>
-        <td style="padding: 1.5rem; vertical-align: top;">
-          <ul style="margin: 0; padding-left: 1.2rem; line-height: 1.8;">
-            <li style="margin-bottom: 0.5rem;">Adversarial attack detection and mitigation</li>
-            <li style="margin-bottom: 0.5rem;">Robust machine learning systems</li>
-            <li style="margin-bottom: 0.5rem;">Cybersecurity threat analysis</li>
-            <li style="margin-bottom: 0;">AI system reliability assessment</li>
-          </ul>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 2rem; margin: 3rem 0; max-width: 900px; margin-left: auto; margin-right: auto; justify-items: center; align-items: stretch;">
+  <div style="text-align: center; padding: 2rem; background: rgba(255,255,255,0.95); border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border: 1px solid #E5E7EB;">
+    <h3 style="color: #2563EB; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fas fa-cogs" style="margin-right: 0.5rem;"></i>Software Engineering</h3>
+    <ul style="margin: 0; padding-left: 1.2rem; line-height: 1.8; text-align: left;">
+      <li style="margin-bottom: 0.5rem;">Cross-platform mobile development frameworks</li>
+      <li style="margin-bottom: 0.5rem;">Real-time system integration and optimization</li>
+      <li style="margin-bottom: 0.5rem;">Software quality assurance methodologies</li>
+      <li style="margin-bottom: 0;">DevOps automation and scalability</li>
+    </ul>
+  </div>
+  
+  <div style="text-align: center; padding: 2rem; background: rgba(255,255,255,0.95); border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border: 1px solid #E5E7EB;">
+    <h3 style="color: #059669; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fas fa-chart-line" style="margin-right: 0.5rem;"></i>Data Science & Analytics</h3>
+    <ul style="margin: 0; padding-left: 1.2rem; line-height: 1.8; text-align: left;">
+      <li style="margin-bottom: 0.5rem;">Behavioral pattern recognition and prediction</li>
+      <li style="margin-bottom: 0.5rem;">Statistical modeling for social impact</li>
+      <li style="margin-bottom: 0.5rem;">Time-series analysis for decision support</li>
+      <li style="margin-bottom: 0;">Machine learning in domain-specific applications</li>
+    </ul>
+  </div>
+  
+  <div style="text-align: center; padding: 2rem; background: rgba(255,255,255,0.95); border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border: 1px solid #E5E7EB;">
+    <h3 style="color: #D97706; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fas fa-shield-alt" style="margin-right: 0.5rem;"></i>AI Security & Robustness</h3>
+    <ul style="margin: 0; padding-left: 1.2rem; line-height: 1.8; text-align: left;">
+      <li style="margin-bottom: 0.5rem;">Adversarial attack detection and mitigation</li>
+      <li style="margin-bottom: 0.5rem;">Robust machine learning systems</li>
+      <li style="margin-bottom: 0.5rem;">Cybersecurity threat analysis</li>
+      <li style="margin-bottom: 0;">AI system reliability assessment</li>
+    </ul>
+  </div>
 </div>
 
 ## 📝 Research Projects & Publications
