@@ -214,13 +214,13 @@ permalink: /publications/
         <thead>
           <tr style="background: linear-gradient(135deg, #1F2937, #374151); color: white;">
             <th style="padding: 1.5rem; text-align: left; font-size: 1.1rem; font-weight: 700; border-right: 1px solid rgba(255,255,255,0.1);">
-              <i class="fas fa-university" style="margin-right: 0.5rem; color: #7C3AED;"></i>🏛️ Faculty Collaborations
+              <i class="fas fa-university" style="margin-right: 0.5rem; color: #7C3AED;"></i> Faculty Collaborations
             </th>
             <th style="padding: 1.5rem; text-align: left; font-size: 1.1rem; font-weight: 700; border-right: 1px solid rgba(255,255,255,0.1);">
-              <i class="fas fa-flask" style="margin-right: 0.5rem; color: #DC2626;"></i>🏢 Industry Research
+              <i class="fas fa-flask" style="margin-right: 0.5rem; color: #DC2626;"></i> Industry Research
             </th>
             <th style="padding: 1.5rem; text-align: left; font-size: 1.1rem; font-weight: 700;">
-              <i class="fas fa-pen-nib" style="margin-right: 0.5rem; color: #10B981;"></i>📝 Co-Authorship
+              <i class="fas fa-pen-nib" style="margin-right: 0.5rem; color: #10B981;"></i> Co-Authorship
             </th>
           </tr>
         </thead>
