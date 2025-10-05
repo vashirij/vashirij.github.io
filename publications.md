@@ -185,10 +185,10 @@ permalink: /publications/
 ---
 
 <div style="text-center; padding: 4rem 2rem; background: linear-gradient(135deg, #1F2937, #374151); color: white; border-radius: var(--border-radius); margin: 3rem 0; position: relative; overflow: hidden;">
-  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="research" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="2" fill="rgba(255,255,255,0.08)"/><circle cx="75" cy="75" r="2" fill="rgba(255,255,255,0.08)"/><path d="M30,30 Q50,10 70,30 T70,70" stroke="rgba(255,255,255,0.05)" stroke-width="2" fill="none"/></pattern></defs><rect width="100" height="100" fill="url(%23research)"/></svg>'); opacity: 0.2;"></div>
+  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(135deg, #374151 0%, #1F2937 100%); opacity: 0.2;"></div>
   
   <div style="position: relative; z-index: 1;">
-    <h2 style="font-size: 2.5rem; margin-bottom: 1rem; color: white;">🎓 Advance AI Research Together</h2>
+    <h2 style="font-size: 3rem; margin-bottom: 1.5rem; color: #FFFFFF; text-shadow: 0 4px 8px rgba(0,0,0,0.8), 0 2px 4px rgba(0,0,0,0.6); font-weight: 800; letter-spacing: 0.5px;">🎓 Advance AI Research Together</h2>
     <p style="font-size: 1.3rem; margin-bottom: 1rem; opacity: 0.9;">
       Ready to shape the future of <strong>AI research</strong> and make groundbreaking discoveries?
     </p>
@@ -196,7 +196,7 @@ permalink: /publications/
       Join me in advancing Graph Neural Networks, Trustworthy AI, and cross-domain machine learning. Together, we can publish impactful research that transforms industries and improves lives.
     </p>
     
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin: 3rem 0; max-width: 900px; margin-left: auto; margin-right: auto;">
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 2rem; margin: 3rem 0; max-width: 900px; margin-left: auto; margin-right: auto; justify-items: center; align-items: stretch;">
       <div style="text-align: center; padding: 2rem; background: rgba(255,255,255,0.1); border-radius: 15px; backdrop-filter: blur(10px);">
         <h3 style="color: #7C3AED; margin-bottom: 1rem; font-size: 1.3rem;">🏛️ Faculty Collaborations</h3>
         <p style="margin-bottom: 1.5rem; opacity: 0.9;">Seeking PhD mentorship or research partnerships at top-tier institutions</p>
