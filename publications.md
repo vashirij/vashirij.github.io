@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Data Science Publications"
+title: "James Vashiri | Publications"
 description: "PhD applicant in Data Science, Specializing in machine learning, cross-platform development, cybersecurity, and behavioral analytics with real-world applications."
 keywords: "data science, software engineering, machine learning, AI research, cross-platform development, cybersecurity, behavioral analytics, PhD research, academic publications"
 permalink: /publications/
