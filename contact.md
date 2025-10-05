@@ -102,7 +102,7 @@ I'm passionate about advancing the field through rigorous research:
       <h3><i class="fas fa-briefcase" style="color: var(--primary-color);"></i> Industry Recruiting</h3>
       <p>Software Engineering & ML/Data Science </p>
       <a href="mailto:grinefalcon2@gmail.com?subject=Industry%20Opportunity" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #2563EB, #1D4ED8); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(37, 99, 235, 0.3);" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(37, 99, 235, 0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(37, 99, 235, 0.3)'">
-        <i class="fas fa-handshake"></i> Discuss Role
+        <i class="fas fa-handshake"></i> Connect
       </a>
     </div>
     
@@ -110,7 +110,7 @@ I'm passionate about advancing the field through rigorous research:
       <h3><i class="fas fa-university" style="color: var(--secondary-color);"></i> Academic Collaboration</h3>
       <p>PhD programs, research partnerships</p>
       <a href="mailto:james.vashiri@marquette.edu?subject=Academic%20Collaboration" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #7C3AED, #6D28D9); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(124, 58, 237, 0.3);" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(124, 58, 237, 0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(124, 58, 237, 0.3)'">
-        <i class="fas fa-graduation-cap"></i> Research Together
+        <i class="fas fa-graduation-cap"></i> Collaborate
       </a>
     </div>
     
