@@ -1,121 +1,123 @@
 ---
 layout: default
-title: "Research & Publications"
+title: "Data Science & Software Engineering Research Publications | James Vashiri"
+description: "PhD research in Data Science, Software Engineering, and AI. Specializing in machine learning, cross-platform development, cybersecurity, and behavioral analytics with real-world applications."
+keywords: "data science, software engineering, machine learning, AI research, cross-platform development, cybersecurity, behavioral analytics, PhD research, academic publications"
 permalink: /publications/
 ---
-# 🔬 Research & Publications
+# 🔬 Data Science & Software Engineering Research Publications
 
 <div style="text-align: left; margin-bottom: 3rem;">
   <p style="font-size: 1.2rem; color: var(--text-secondary); max-width: 700px; margin: 0 auto;">
-    PhD-track research focused on <strong>Software Engineering</strong> and <strong>Data Science & Analytics</strong> with applications in behavioral analytics, cybersecurity, and agricultural technology.
+    PhD-track research in <strong>Data Science</strong> and <strong>Software Engineering</strong> with expertise in machine learning, behavioral analytics, cybersecurity, and cross-platform mobile development. Advancing AI research through practical applications in agricultural technology and real-time systems.
   </p>
 </div>
 
-## 📊 Current Research Portfolio
+## 📊 Data Science & Software Engineering Research Portfolio
 
-### Primary Research Areas
+### Data Science & Software Engineering Specializations
 
 <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 2rem; margin: 3rem 0; max-width: 900px; margin-left: auto; margin-right: auto; justify-items: center; align-items: stretch;">
   <div style="text-align: center; padding: 2rem; background: rgba(255,255,255,0.95); border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border: 1px solid #E5E7EB;">
-    <h3 style="color: #2563EB; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fas fa-cogs" style="margin-right: 0.5rem;"></i>Software Engineering</h3>
+    <h3 style="color: #2563EB; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fas fa-cogs" style="margin-right: 0.5rem;"></i>Software Engineering Research</h3>
     <ul style="margin: 0; padding-left: 1.2rem; line-height: 1.8; text-align: left;">
-      <li style="margin-bottom: 0.5rem;">Cross-platform mobile development frameworks</li>
-      <li style="margin-bottom: 0.5rem;">Real-time system integration and optimization</li>
+      <li style="margin-bottom: 0.5rem;">Cross-platform mobile app development frameworks</li>
+      <li style="margin-bottom: 0.5rem;">Real-time software system integration</li>
       <li style="margin-bottom: 0.5rem;">Software quality assurance methodologies</li>
-      <li style="margin-bottom: 0;">DevOps automation and scalability</li>
+      <li style="margin-bottom: 0;">DevOps automation and scalable software architecture</li>
     </ul>
   </div>
   
   <div style="text-align: center; padding: 2rem; background: rgba(255,255,255,0.95); border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border: 1px solid #E5E7EB;">
-    <h3 style="color: #059669; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fas fa-chart-line" style="margin-right: 0.5rem;"></i>Data Science & Analytics</h3>
+    <h3 style="color: #059669; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fas fa-chart-line" style="margin-right: 0.5rem;"></i>Data Science & Machine Learning</h3>
     <ul style="margin: 0; padding-left: 1.2rem; line-height: 1.8; text-align: left;">
-      <li style="margin-bottom: 0.5rem;">Behavioral pattern recognition and prediction</li>
-      <li style="margin-bottom: 0.5rem;">Statistical modeling for social impact</li>
-      <li style="margin-bottom: 0.5rem;">Time-series analysis for decision support</li>
-      <li style="margin-bottom: 0;">Machine learning in domain-specific applications</li>
+      <li style="margin-bottom: 0.5rem;">Data science for behavioral pattern recognition</li>
+      <li style="margin-bottom: 0.5rem;">Statistical modeling and predictive analytics</li>
+      <li style="margin-bottom: 0.5rem;">Time-series data analysis for decision support</li>
+      <li style="margin-bottom: 0;">Machine learning applications in data science</li>
     </ul>
   </div>
   
   <div style="text-align: center; padding: 2rem; background: rgba(255,255,255,0.95); border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border: 1px solid #E5E7EB;">
-    <h3 style="color: #D97706; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fas fa-shield-alt" style="margin-right: 0.5rem;"></i>AI Security & Robustness</h3>
+    <h3 style="color: #D97706; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fas fa-shield-alt" style="margin-right: 0.5rem;"></i>AI Security & Data Science Applications</h3>
     <ul style="margin: 0; padding-left: 1.2rem; line-height: 1.8; text-align: left;">
-      <li style="margin-bottom: 0.5rem;">Adversarial attack detection and mitigation</li>
-      <li style="margin-bottom: 0.5rem;">Robust machine learning systems</li>
-      <li style="margin-bottom: 0.5rem;">Cybersecurity threat analysis</li>
-      <li style="margin-bottom: 0;">AI system reliability assessment</li>
+      <li style="margin-bottom: 0.5rem;">AI adversarial attack detection using data science</li>
+      <li style="margin-bottom: 0.5rem;">Robust machine learning system engineering</li>
+      <li style="margin-bottom: 0.5rem;">Cybersecurity data analysis and threat modeling</li>
+      <li style="margin-bottom: 0;">AI software system reliability assessment</li>
     </ul>
   </div>
 </div>
 
-## 📝 Research Projects & Publications
+## 📝 Data Science & Software Engineering Research Projects
 
-### 🧠 Behavioral Data Analytics - Smartphone Usage Impact Study
+### 🧠 Data Science Research: Behavioral Analytics - Smartphone Usage Impact Study
 *August 2025 - Present* | Marquette University, Milwaukee, WI
 
-**Research Question:** How do smartphone usage patterns correlate with academic performance and sleep quality in adolescents, and can we develop predictive models for early intervention?
+**Research Question:** How do smartphone usage patterns correlate with academic performance and sleep quality in adolescents, and can we develop predictive models for early intervention using data science techniques?
 
-**Methodology:** Advanced machine learning approaches including feature engineering, behavioral pattern analysis, and predictive modeling using longitudinal data collection.
+**Methodology:** Advanced data science and machine learning approaches including feature engineering, behavioral pattern analysis, and predictive modeling using longitudinal data collection and software engineering best practices.
 
-**Research Contributions:**
-- Developed novel feature extraction methods for smartphone usage data
-- Implemented ensemble ML models with 85%+ prediction accuracy
-- Created comprehensive behavioral pattern taxonomy
-- Designed intervention recommendation system based on usage predictions
+**Data Science Research Contributions:**
+- Developed novel data science feature extraction methods for smartphone usage data
+- Implemented ensemble machine learning models with 85%+ prediction accuracy
+- Created comprehensive behavioral pattern taxonomy using data analytics
+- Designed intervention recommendation system based on data-driven predictions
 
-**Technologies:** Python, Pandas, Scikit-learn, TensorFlow, Statistical Analysis, Data Visualization
+**Technologies:** Python Data Science Stack (Pandas, Scikit-learn), TensorFlow, Statistical Analysis, Data Visualization
 
-**Expected Outcomes:** Peer-reviewed publication on digital wellness analytics, framework for educational technology intervention
+**Expected Outcomes:** Peer-reviewed publication on data science applications in digital wellness analytics, software framework for educational technology intervention
 
 ---
 
-### 🛡️ Adversarial Robustness in AI-Based Cybersecurity Systems
+### 🛡️ AI Security Research: Adversarial Robustness in Cybersecurity Systems  
 *August 2025 - Present* | Marquette University, Milwaukee, WI
 
-**Research Question:** How can we enhance the robustness of AI-based threat detection systems against sophisticated adversarial attacks while maintaining detection accuracy?
+**Research Question:** How can we enhance the robustness of AI-based threat detection systems against sophisticated adversarial attacks while maintaining detection accuracy using advanced data science techniques?
 
-**Methodology:** Implementation and evaluation of adversarial attack algorithms (FGSM, PGD) on cybersecurity datasets, development of defensive mechanisms, robustness evaluation metrics.
+**Methodology:** Implementation and evaluation of adversarial attack algorithms (FGSM, PGD) on cybersecurity datasets, development of defensive mechanisms through software engineering approaches, robustness evaluation metrics using data science methodologies.
 
-**Research Contributions:**
-- Comprehensive evaluation of adversarial robustness on CICIDS2017 dataset
-- Novel defensive strategies for threat detection models
-- Robustness metrics framework for cybersecurity applications
-- Performance-security trade-off analysis
+**Data Science & Software Engineering Research Contributions:**
+- Comprehensive data science evaluation of adversarial robustness on CICIDS2017 dataset
+- Novel defensive software engineering strategies for threat detection models
+- Robustness metrics framework for cybersecurity applications using data analytics
+- Performance-security trade-off analysis through software engineering principles
 
-**Technologies:** Python, PyTorch, Scikit-learn, CICIDS2017 Dataset, Adversarial ML Libraries
+**Technologies:** Python Data Science Tools, PyTorch, Scikit-learn, CICIDS2017 Dataset, Adversarial ML Libraries
 
-**Expected Outcomes:** Conference publication on AI security, open-source robustness evaluation toolkit
+**Expected Outcomes:** Conference publication on AI security and data science applications, open-source software toolkit for robustness evaluation
 
 ---
 
-### 📱 Cross-Platform Software Engineering - Real-Time Integration Study
+### 📱 Software Engineering Research: Cross-Platform Mobile Development & Real-Time Data Integration
 *August 2025 - Present* | Marquette University, Milwaukee, WI
 
-**Research Question:** What are the optimal architectural patterns for cross-platform mobile applications requiring real-time data integration and how do they impact user experience?
+**Research Question:** What are the optimal software engineering architectural patterns for cross-platform mobile applications requiring real-time data integration and how do they impact user experience from both software engineering and data science perspectives?
 
-**Methodology:** Systematic software engineering approach comparing Flutter, React Native, and native development for real-time applications, performance benchmarking, user experience analysis.
+**Methodology:** Systematic software engineering approach comparing Flutter, React Native, and native development for real-time applications, performance benchmarking using data science techniques, user experience analysis.
 
-**Research Contributions:**
-- Performance benchmarking framework for cross-platform development
-- Real-time data integration optimization strategies
-- User experience metrics for mobile applications
-- Best practices framework for cross-platform architecture
+**Software Engineering & Data Science Research Contributions:**
+- Performance benchmarking framework for cross-platform software development
+- Real-time data integration optimization strategies using software engineering principles
+- User experience metrics for mobile applications through data science analysis
+- Best practices framework for cross-platform software architecture
 
-**Technologies:** Flutter, Dart, React Native, RESTful APIs, WebSocket, Performance Profiling Tools
+**Technologies:** Flutter, Dart, React Native, RESTful APIs, WebSocket, Performance Profiling Tools for Software Engineering
 
-**Expected Outcomes:** Software engineering conference paper, open-source framework for real-time mobile apps
+**Expected Outcomes:** Software engineering conference paper, open-source software framework for real-time mobile applications
 
 ---
 
-## 🏆 Completed Research Projects
+## 🏆 Completed Data Science & Software Engineering Projects
 
-### 🌾 Machine Learning for Agricultural Decision Support
+### 🌾 Data Science Research: Machine Learning for Agricultural Decision Support
 *June 2024 - June 2025* | Zimbabwe Open University, Harare, Zimbabwe
 
-**Research Impact:** Developed predictive models achieving 90%+ accuracy for maize yield forecasting, directly supporting agricultural decision-making for 200+ local farmers in Marondera region.
+**Data Science Research Impact:** Developed predictive machine learning models achieving 90%+ accuracy for maize yield forecasting, directly supporting agricultural decision-making for 200+ local farmers in Marondera region through advanced data science techniques.
 
-**Academic Contribution:** Comprehensive analysis of environmental factors affecting crop yield, novel preprocessing techniques for agricultural datasets, visualization frameworks for farming data.
+**Academic Data Science Contribution:** Comprehensive data science analysis of environmental factors affecting crop yield, novel data preprocessing techniques for agricultural datasets, data visualization frameworks for farming data analytics.
 
-**Technologies:** Python, Scikit-learn, Pandas, NumPy, Matplotlib, Jupyter Notebook
+**Data Science Technologies:** Python Data Science Stack (Scikit-learn, Pandas, NumPy), Matplotlib, Jupyter Notebook for Data Analysis
 
 ---
 
