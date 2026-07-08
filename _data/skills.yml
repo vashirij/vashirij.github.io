@@ -1,0 +1,35 @@
+languages:
+  - name: Python
+    level: 94
+  - name: MATLAB
+    level: 89
+  - name: Java
+    level: 77
+  - name: C++
+    level: 82
+  - name: JavaScript
+    level: 75
+
+technologies:
+  - name: TensorFlow
+    level: 88
+  - name: PyTorch
+    level: 86
+  - name: Docker
+    level: 80
+  - name: Git
+    level: 90
+  - name: Linux
+    level: 91
+  - name: OpenCV
+    level: 84
+  - name: Arduino
+    level: 79
+  - name: ESP32
+    level: 76
+  - name: Embedded Systems
+    level: 87
+  - name: Databases
+    level: 73
+  - name: Cloud
+    level: 71

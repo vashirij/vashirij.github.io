@@ -1,0 +1,51 @@
+- title: Adaptive Runtime Strategies for TinyML in Resource-Constrained Edge Devices
+  authors: James Vashiri et al.
+  venue: In preparation for submission to an embedded AI conference.
+  venue_type: Survey Paper
+  category: TinyML
+  year: 2026
+  status: In Preparation
+  pdf: https://example.com
+  bibtex: https://example.com
+  citation: https://example.com
+  doi: https://doi.org/10.0000/example
+  github: https://github.com/vashirij
+
+- title: Robust Threat Detection Under Adversarial Conditions in AI Security Pipelines
+  authors: James Vashiri et al.
+  venue: Submitted to a cybersecurity and AI systems venue.
+  venue_type: Conference Paper
+  category: AI Security
+  year: 2026
+  status: Submitted
+  pdf: https://example.com
+  bibtex: https://example.com
+  citation: https://example.com
+  doi: https://doi.org/10.0000/example
+  github: https://github.com/vashirij
+
+- title: Edge AI Design Patterns for Embedded Intelligence in Cyber Physical Systems
+  authors: James Vashiri et al.
+  venue: Journal manuscript draft.
+  venue_type: Journal Paper
+  category: Embedded Intelligence
+  year: 2026
+  status: In Preparation
+  pdf: https://example.com
+  bibtex: https://example.com
+  citation: https://example.com
+  doi: https://doi.org/10.0000/example
+  github: https://github.com/vashirij
+
+- title: Runtime Adaptation in Federated Edge Learning for Dynamic Environments
+  authors: James Vashiri et al.
+  venue: Poster accepted for a graduate research forum.
+  venue_type: Poster Presentation
+  category: Federated Learning
+  year: 2026
+  status: Published
+  pdf: https://example.com
+  bibtex: https://example.com
+  citation: https://example.com
+  doi: https://doi.org/10.0000/example
+  github: https://github.com/vashirij

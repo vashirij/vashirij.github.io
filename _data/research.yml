@@ -1,0 +1,45 @@
+interests:
+  - title: TinyML
+    summary: Efficient intelligence for low-power embedded platforms.
+  - title: Edge AI
+    summary: Practical machine learning systems running at the network edge.
+  - title: Runtime AI Adaptation
+    summary: Methods for dynamic model updates under changing operating conditions.
+  - title: Federated Learning
+    summary: Privacy-preserving collaborative model training across distributed nodes.
+  - title: AI Security
+    summary: Robustness and adversarial defense for deployed machine learning systems.
+  - title: Embedded Intelligence
+    summary: Tight integration of sensing, compute, and decision logic.
+  - title: Cyber Physical Systems
+    summary: Reliable AI-enabled systems that interact with physical environments.
+
+current_projects:
+  - title: Adaptive TinyML Runtime Policies
+    summary: Investigating strategies that balance performance, memory, and power in dynamic edge workloads.
+    stage: Ongoing experimentation and benchmark design.
+  - title: Edge Vision for Traffic and Mobility
+    summary: Building robust vision pipelines for tracking, analytics, and anomaly detection in constrained hardware settings.
+    stage: Active development and validation.
+  - title: Secure AI Inference for Embedded Platforms
+    summary: Studying threat models and defense strategies for embedded AI deployment.
+    stage: Dataset preparation and attack simulation.
+
+roadmap:
+  - period: 2026 Q3
+    title: Baseline Models and Experimental Infrastructure
+    outcome: Reproducible benchmark suite and deployment-ready baselines.
+  - period: 2026 Q4
+    title: Adaptation and Security Experiments
+    outcome: Comparative evaluation of adaptation and robustness strategies.
+  - period: 2027 Q1
+    title: Publication and Open Source Release
+    outcome: Manuscript submission and release of reusable research artifacts.
+
+future_directions:
+  - title: Federated Embedded Intelligence
+    summary: Combine federated learning with low-power deployment constraints.
+  - title: Formal Reliability Analysis for Edge AI
+    summary: Integrate verification thinking into AI-enabled embedded systems.
+  - title: AI for Safety-Critical CPS
+    summary: Expand into transport, agriculture, and infrastructure safety use-cases.

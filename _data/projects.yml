@@ -1,0 +1,55 @@
+- title: Automated Vehicle Tracking and Traffic Analysis
+  description: MATLAB pipeline for object detection, tracking, and traffic flow analytics using roadway footage.
+  tags: [AI, Computer Vision, MATLAB]
+  github: https://github.com/vashirij
+  demo:
+  image: /assets/images/profile-pic.jpg
+
+- title: Adaptive TinyML Survey
+  description: Survey and benchmark notes on adaptive TinyML methods for runtime-efficient edge intelligence.
+  tags: [TinyML, Embedded, AI]
+  github: https://github.com/vashirij
+  demo:
+  image: /assets/images/profile-pic.jpg
+
+- title: Machine Learning for Maize Yield Prediction
+  description: Regression pipeline for yield forecasting with environmental and historical data for agriculture planning.
+  tags: [Machine Learning, Python, IoT]
+  github: https://github.com/vashirij
+  demo:
+  image: /assets/images/profile-pic.jpg
+
+- title: AI Security Project
+  description: Adversarial robustness evaluation and defensive training strategies for AI-based threat detection.
+  tags: [AI, Cybersecurity, Python]
+  github: https://github.com/vashirij
+  demo:
+  image: /assets/images/profile-pic.jpg
+
+- title: IoT Smart Agriculture
+  description: Sensor-driven smart agriculture architecture with low-power edge nodes and predictive analytics.
+  tags: [IoT, Embedded, Machine Learning]
+  github: https://github.com/vashirij
+  demo:
+  image: /assets/images/profile-pic.jpg
+
+- title: Embedded Systems Prototypes
+  description: Microcontroller-focused prototypes integrating control logic, telemetry, and reliable firmware design.
+  tags: [Embedded, C++, IoT]
+  github: https://github.com/vashirij
+  demo:
+  image: /assets/images/profile-pic.jpg
+
+- title: Traffic Analysis Toolkit
+  description: Data processing and visualization toolkit for traffic density, movement patterns, and anomaly detection.
+  tags: [Computer Vision, Python, AI]
+  github: https://github.com/vashirij
+  demo:
+  image: /assets/images/profile-pic.jpg
+
+- title: Future Systems Sandbox
+  description: Experimental area for upcoming AI systems, edge intelligence experiments, and research prototypes.
+  tags: [AI, Machine Learning, Embedded]
+  github: https://github.com/vashirij
+  demo:
+  image: /assets/images/profile-pic.jpg

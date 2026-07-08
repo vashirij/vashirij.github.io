@@ -1,259 +1,155 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: 'en-US' }}">
-
+<html lang="{{ site.lang | default: 'en-US' }}" data-theme="light">
 <head>
   <meta charset="UTF-8">
-  {% seo %}
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#2563EB">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#0f172a">
+  {% seo %}
 
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
-    rel="stylesheet">
-
-  <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWix+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkR4j8iNf6Q8M4Qfq6S6K5G6Y2R0T5fJH0Lw==" crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="stylesheet" href="{{ '/assets/css/custom.css?v=' | append: site.github.build_revision | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   {% include head-custom.html %}
   <title>{{ page.title | default: site.title }}</title>
 </head>
-
 <body>
-  <!-- Navigation -->
-  <nav class="navbar">
-    <div class="nav-container">
-      <div class="nav-brand">
-        <img src="{{ '/assets/images/profile-pic.jpg' | relative_url }}" alt="James Vashiri" class="profile-photo">
-        <a href="{{ '/' | relative_url }}" class="brand-text">{{ site.title | default: 'James Vashiri' }}</a>
-      </div>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-      <!-- Mobile menu button -->
-      <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
-        <i class="fas fa-bars"></i>
+  <header class="site-header">
+    <nav class="nav-shell" aria-label="Main navigation">
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="Home">
+        <img src="{{ '/assets/images/profile-pic.jpg' | relative_url }}" alt="James Vashiri" width="40" height="40">
+        <span>James Vashiri</span>
+      </a>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+        <i class="fa-solid fa-bars"></i>
       </button>
 
-      <ul class="nav-menu" id="navMenu">
-        <li><a href="{{ '/' | relative_url }}" class="nav-link"><i class="fas fa-home"></i> Home</a></li>
-        <li><a href="{{ '/projects/' | relative_url }}" class="nav-link"><i class="fas fa-code"></i> Projects</a></li>
-        <li><a href="{{ '/publications/' | relative_url }}" class="nav-link"><i class="fas fa-book"></i>
-            Publications</a></li>
-        <li><a href="{{ '/contact/' | relative_url }}" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+      <ul class="nav-links" id="navMenu">
+        <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a></li>
+        <li><a href="{{ '/about/' | relative_url }}" {% if page.url == '/about/' %}aria-current="page"{% endif %}>About</a></li>
+        <li><a href="{{ '/projects/' | relative_url }}" {% if page.url == '/projects/' %}aria-current="page"{% endif %}>Projects</a></li>
+        <li><a href="{{ '/research/' | relative_url }}" {% if page.url == '/research/' %}aria-current="page"{% endif %}>Research</a></li>
+        <li><a href="{{ '/publications/' | relative_url }}" {% if page.url == '/publications/' %}aria-current="page"{% endif %}>Publications</a></li>
+        <li><a href="{{ '/resume/' | relative_url }}" {% if page.url == '/resume/' %}aria-current="page"{% endif %}>Resume</a></li>
+        <li><a href="{{ '/blog/' | relative_url }}" {% if page.url == '/blog/' %}aria-current="page"{% endif %}>Blog</a></li>
+        <li><a href="{{ '/contact/' | relative_url }}" {% if page.url == '/contact/' %}aria-current="page"{% endif %}>Contact</a></li>
       </ul>
-    </div>
-  </nav>
 
-  <!-- Hero Section -->
-  <header class="hero-section">
-    <div class="hero-content">
-      <div class="hero-text">
-        <h1 class="hero-title">{{ page.title | default: site.title }}</h1>
-        <p class="hero-subtitle">{{ page.description | default: 'Bsc Software Engineering & Ms Computer & Information Science' }}</p>
-        <div class="hero-stats">
-          <div class="stat-item">
-            <i class="fas fa-graduation-cap"></i>
-            <span>Data Scientist</span>
-          </div>
-          <div class="stat-item">
-            <i class="fas fa-map-marker-alt"></i>
-            <span>Milwaukee, WI</span>
-          </div>
-          <div class="stat-item">
-            <i class="fas fa-briefcase"></i>
-            <span>Software Engineer</span>
-          </div>
-        </div>
-
-        <!-- Hero Call-to-Action -->
-        <div style="margin-top: 2rem; display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
-          <a href="mailto:james.vashiri@marquette.edu?subject=Opportunity%20Discussion%20-%20Let's%20Connect&body=Hi%20James,%0A%0AI'm%20interested%20in%20discussing%20an%20opportunity%20with%20you.%0A%0ADetails:%0ABest%20time%20to%20connect:%0A%0ALooking%20forward%20to%20speaking!"
-            style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 1rem 2rem; background: linear-gradient(135deg, #DC2626, #B91C1C); color: white; text-decoration: none; border-radius: 10px; font-weight: 700; font-size: 1.1rem; transition: all 0.3s ease; box-shadow: 0 4px 8px rgba(220, 38, 38, 0.4); text-transform: uppercase; letter-spacing: 0.5px;"
-            onmouseover="this.style.transform='translateY(-3px) scale(1.05)'; this.style.boxShadow='0 6px 12px rgba(220, 38, 38, 0.6)'"
-            onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.boxShadow='0 4px 8px rgba(220, 38, 38, 0.4)'">
-            <i class="fas fa-rocket"></i> Let's Connect
-          </a>
-          <a href="{{ '/contact/' | relative_url }}"
-            style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 1rem 2rem; background: linear-gradient(135deg, #7C3AED, #6D28D9); color: white; text-decoration: none; border-radius: 10px; font-weight: 700; font-size: 1.1rem; transition: all 0.3s ease; box-shadow: 0 4px 8px rgba(124, 58, 237, 0.4); text-transform: uppercase; letter-spacing: 0.5px;"
-            onmouseover="this.style.transform='translateY(-3px) scale(1.05)'; this.style.boxShadow='0 6px 12px rgba(124, 58, 237, 0.6)'"
-            onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.boxShadow='0 4px 8px rgba(124, 58, 237, 0.4)'">
-            <i class="fas fa-envelope"></i> View Contact
-          </a>
-        </div>
-      </div>
-    </div>
+      <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+    </nav>
   </header>
 
-  <!-- Main Content -->
-  <main class="main-content">
-    <div class="container">
-      {{ content }}
-    </div>
+  <main id="main-content" class="page-shell">
+    {{ content }}
   </main>
 
-  <!-- Global Call-to-Action Section -->
-  <section
-    style="background: linear-gradient(135deg, #1F2937, #374151); color: white; padding: 4rem 2rem; margin: 0; position: relative; overflow: hidden;">
-    <div
-      style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: radial-gradient(circle at 20% 20%, rgba(255,255,255,0.08) 1px, transparent 1px), radial-gradient(circle at 80% 80%, rgba(255,255,255,0.08) 1px, transparent 1px), radial-gradient(circle at 50% 50%, rgba(255,255,255,0.05) 1px, transparent 1px); background-size: 100px 100px; opacity: 0.3;">
-    </div>
-
-    <div style="position: relative; z-index: 1; max-width: 1200px; margin: 0 auto; text-align: center;">
-      <h2 style="font-size: 2.5rem; margin-bottom: 1rem; color: white; font-weight: 800;">🚀 Ready to Work Together?
-      </h2>
-      <p
-        style="font-size: 1.2rem; margin-bottom: 3rem; opacity: 0.9; max-width: 600px; margin-left: auto; margin-right: auto;">
-        Let's create something extraordinary. Whether you're hiring top ML talent or seeking research collaboration, I'm
-        ready to make an impact.
-      </p>
-
-      <div
-        style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1.5rem; margin: 2rem 0; max-width: 1000px; margin-left: auto; margin-right: auto;">
-        <div
-          style="background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 15px; backdrop-filter: blur(10px); text-align: center;">
-          <div style="font-size: 2.5rem; margin-bottom: 0.75rem;">💼</div>
-          <h3 style="color: #10B981; margin-bottom: 0.75rem; font-size: 1.1rem;">Industry Opportunities</h3>
-          <p style="margin-bottom: 1.25rem; opacity: 0.9; font-size: 0.9rem;">ML Engineer • Data Scientist • Research
-            Scientist</p>
-          <a href="mailto:james.vashiri@marquette.edu?subject=Industry%20Role%20-%20Let's%20Connect&body=Hi%20James,%0A%0AI'm%20interested%20in%20discussing%20an%20opportunity%20with%20you.%0A%0ARole:%0ACompany:%0ABest%20time%20to%20connect:%0A%0ALooking%20forward%20to%20speaking!"
-            style="display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.6rem 1.2rem; background: linear-gradient(135deg, #DC2626, #B91C1C); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 3px 6px rgba(220, 38, 38, 0.4); font-size: 0.9rem;"
-            onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 5px 10px rgba(220, 38, 38, 0.5)'"
-            onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 3px 6px rgba(220, 38, 38, 0.4)'">
-            <i class="fas fa-rocket"></i> Let's Talk
-          </a>
-        </div>
-
-        <div
-          style="background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 15px; backdrop-filter: blur(10px); text-align: center;">
-          <div style="font-size: 2.5rem; margin-bottom: 0.75rem;">🎓</div>
-          <h3 style="color: #7C3AED; margin-bottom: 0.75rem; font-size: 1.1rem;">Research Collaboration</h3>
-          <p style="margin-bottom: 1.25rem; opacity: 0.9; font-size: 0.9rem;">PhD Programs • Academic Partnerships •
-            Publications</p>
-          <a href="mailto:james.vashiri@marquette.edu?subject=Research%20Collaboration%20Inquiry&body=Hi%20James,%0A%0AI'd%20like%20to%20explore%20research%20collaboration%20opportunities.%0A%0AResearch%20area:%0AInstitution:%0ACollaboration%20type:%0A%0ALet's%20schedule%20a%20discussion!"
-            style="display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.6rem 1.2rem; background: linear-gradient(135deg, #7C3AED, #6D28D9); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 3px 6px rgba(124, 58, 237, 0.4); font-size: 0.9rem;"
-            onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 5px 10px rgba(124, 58, 237, 0.5)'"
-            onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 3px 6px rgba(124, 58, 237, 0.4)'">
-            <i class="fas fa-flask"></i> Collaborate
-          </a>
-        </div>
-
-        <div
-          style="background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 15px; backdrop-filter: blur(10px); text-align: center;">
-          <div style="font-size: 2.5rem; margin-bottom: 0.75rem;">💡</div>
-          <h3 style="color: #F59E0B; margin-bottom: 0.75rem; font-size: 1.1rem;">Project Consultation</h3>
-          <p style="margin-bottom: 1.25rem; opacity: 0.9; font-size: 0.9rem;">ML Strategy • Technical Guidance • Problem
-            Solving</p>
-          <a href="mailto:james.vashiri@marquette.edu?subject=Technical%20Consultation%20Request&body=Hi%20James,%0A%0AI'd%20like%20to%20discuss%20technical%20consultation%20for%20our%20project.%0A%0AProject%20type:%0AChallenges:%0ATimeline:%0A%0ALet's%20explore%20how%20you%20can%20help!"
-            style="display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.6rem 1.2rem; background: linear-gradient(135deg, #F59E0B, #D97706); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 3px 6px rgba(245, 158, 11, 0.4); font-size: 0.9rem;"
-            onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 5px 10px rgba(245, 158, 11, 0.5)'"
-            onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 3px 6px rgba(245, 158, 11, 0.4)'">
-            <i class="fas fa-lightbulb"></i> Get Help
-          </a>
-        </div>
-      </div>
-
-      <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.2);">
-        <div style="display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 1.5rem;">
-          <a href="{{ '/contact/' | relative_url }}"
-            style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.6rem 1.2rem; background: linear-gradient(135deg, #374151, #1F2937); color: white; text-decoration: none; border-radius: 6px; font-weight: 500; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(55, 65, 81, 0.3); font-size: 0.9rem;"
-            onmouseover="this.style.transform='translateY(-1px)'; this.style.boxShadow='0 3px 6px rgba(55, 65, 81, 0.4)'"
-            onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(55, 65, 81, 0.3)'">
-            <i class="fas fa-envelope"></i> Contact Info
-          </a>
-          <a href="https://github.com/vashirij" target="_blank"
-            style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.6rem 1.2rem; background: linear-gradient(135deg, #6B46C1, #553C9A); color: white; text-decoration: none; border-radius: 6px; font-weight: 500; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(107, 70, 193, 0.3); font-size: 0.9rem;"
-            onmouseover="this.style.transform='translateY(-1px)'; this.style.boxShadow='0 3px 6px rgba(107, 70, 193, 0.4)'"
-            onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(107, 70, 193, 0.3)'">
-            <i class="fab fa-github"></i> Code Portfolio
-          </a>
-          <a href="{{ '/projects/' | relative_url }}"
-            style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.6rem 1.2rem; background: linear-gradient(135deg, #059669, #047857); color: white; text-decoration: none; border-radius: 6px; font-weight: 500; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(5, 150, 105, 0.3); font-size: 0.9rem;"
-            onmouseover="this.style.transform='translateY(-1px)'; this.style.boxShadow='0 3px 6px rgba(5, 150, 105, 0.4)'"
-            onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(5, 150, 105, 0.3)'">
-            <i class="fas fa-code"></i> Live Projects
-          </a>
-        </div>
-
-        <p style="font-size: 0.9rem; opacity: 0.7; margin: 0;">⚡ 24-hour response guarantee • 🌍 Available globally • 📞
-          Ready to start immediately</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
   <footer class="site-footer">
-    <div class="footer-content">
-      <div class="footer-section">
+    <div class="footer-grid">
+      <section>
         <h3>James Vashiri</h3>
-        <p>Software Engineer & Machine Learning Enthusiast</p>
-        <div class="social-links">
-          <a href="https://github.com/vashirij" target="_blank" aria-label="GitHub">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="https://linkedin.com/in/jvashiri" target="_blank" aria-label="LinkedIn">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="mailto:james.vashiri@marquette.edu" aria-label="Email">
-            <i class="fas fa-envelope"></i>
-          </a>
+        <p>AI Systems Engineer and Researcher focused on intelligent, resilient, and deployable AI systems.</p>
+        <div class="social-row">
+          <a href="https://github.com/vashirij" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://linkedin.com/in/jvashiri" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="mailto:james.vashiri@marquette.edu" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://scholar.google.com" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
         </div>
-      </div>
-      <div class="footer-section">
+      </section>
+      <section>
         <h4>Quick Links</h4>
         <ul>
           <li><a href="{{ '/' | relative_url }}">Home</a></li>
           <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
+          <li><a href="{{ '/research/' | relative_url }}">Research</a></li>
           <li><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
           <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
         </ul>
-      </div>
-      <div class="footer-section">
+      </section>
+      <section>
         <h4>Contact</h4>
-        <p><i class="fas fa-envelope"></i> grinefalcon2@gmail.com</p>
-
-        <p><i class="fas fa-map-marker-alt"></i> Milwaukee, WI</p>
-      </div>
+        <p>Email: james.vashiri@marquette.edu</p>
+        <p>Location: Milwaukee, WI</p>
+      </section>
     </div>
-    <div class="footer-bottom">
-      <p>&copy; 2025 James Vashiri. All rights reserved.</p>
-    </div>
+    <p class="footer-meta">&copy; {{ 'now' | date: '%Y' }} James Vashiri. All rights reserved.</p>
   </footer>
 
-  <!-- JavaScript for mobile menu -->
   <script>
-    function toggleMobileMenu() {
+    (function () {
+      const root = document.documentElement;
+      const themeToggle = document.getElementById('themeToggle');
+      const mobileToggle = document.getElementById('mobileToggle');
       const navMenu = document.getElementById('navMenu');
-      navMenu.classList.toggle('active');
-    }
 
-    // Close mobile menu when clicking outside
-    document.addEventListener('click', function (event) {
-      const navMenu = document.getElementById('navMenu');
-      const mobileBtn = document.querySelector('.mobile-menu-btn');
+      const storedTheme = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const initialTheme = storedTheme || (prefersDark ? 'dark' : 'light');
+      root.setAttribute('data-theme', initialTheme);
 
-      if (!navMenu.contains(event.target) && !mobileBtn.contains(event.target)) {
-        navMenu.classList.remove('active');
+      function updateThemeIcon() {
+        const icon = themeToggle.querySelector('i');
+        icon.className = root.getAttribute('data-theme') === 'dark' ? 'fa-solid fa-sun' : 'fa-solid fa-moon';
       }
-    });
 
-    // Smooth scrolling for anchor links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        const target = document.querySelector(this.getAttribute('href'));
-        if (target) {
-          target.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
-          });
+      updateThemeIcon();
+
+      themeToggle.addEventListener('click', function () {
+        const nextTheme = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', nextTheme);
+        localStorage.setItem('theme', nextTheme);
+        updateThemeIcon();
+      });
+
+      mobileToggle.addEventListener('click', function () {
+        const expanded = mobileToggle.getAttribute('aria-expanded') === 'true';
+        mobileToggle.setAttribute('aria-expanded', String(!expanded));
+        navMenu.classList.toggle('open');
+      });
+
+      document.addEventListener('click', function (event) {
+        if (!navMenu.contains(event.target) && !mobileToggle.contains(event.target)) {
+          navMenu.classList.remove('open');
+          mobileToggle.setAttribute('aria-expanded', 'false');
         }
       });
-    });
+
+      const animated = document.querySelectorAll('[data-reveal]');
+      const observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('revealed');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.15 });
+
+      animated.forEach(function (element) {
+        observer.observe(element);
+      });
+
+      const filterButtons = document.querySelectorAll('[data-filter-button]');
+      const filterCards = document.querySelectorAll('[data-filter-card]');
+      filterButtons.forEach(function (button) {
+        button.addEventListener('click', function () {
+          const filter = button.getAttribute('data-filter-button');
+
+          filterButtons.forEach(function (btn) { btn.classList.remove('active'); });
+          button.classList.add('active');
+
+          filterCards.forEach(function (card) {
+            const tags = card.getAttribute('data-tags') || '';
+            const show = filter === 'all' || tags.toLowerCase().includes(filter.toLowerCase());
+            card.style.display = show ? 'grid' : 'none';
+          });
+        });
+      });
+    })();
   </script>
 </body>
-
 </html>

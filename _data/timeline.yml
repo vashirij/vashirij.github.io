@@ -1,0 +1,23 @@
+- period: 2025 - Present
+  type: Education
+  title: Master of Science, Computer and Information Science
+  organization: Marquette University
+  description: Graduate studies focused on AI systems, machine learning, and applied research.
+
+- period: 2024 - 2025
+  type: Professional Experience
+  title: Software Engineering and Applied AI Projects
+  organization: Cross-domain Engineering Work
+  description: Built and validated software and ML solutions for practical, data-driven decision systems.
+
+- period: 2025 - Present
+  type: Research Experience
+  title: AI Systems and Edge Intelligence Research
+  organization: Academic and Independent Research
+  description: Active work in TinyML, embedded intelligence, runtime adaptation, and AI security.
+
+- period: Ongoing
+  type: Teaching and Leadership
+  title: Technical Mentorship and Team Collaboration
+  organization: Peer and Community Initiatives
+  description: Supporting collaborative engineering culture through mentoring and applied project guidance.

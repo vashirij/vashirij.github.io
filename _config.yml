@@ -3,36 +3,46 @@ remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Site settings
-title: "James Vashiri"
-email: "james.vashiri@marquette.edu"
-description: "PhD-Track Researcher | Software Engineering & Data Science Analytics | Marquette University"
-baseurl: "" # 
-url: "https://vashirij.github.io"
-logo: "/assets/images/profile-pic.jpg"
-# Site settings
-...
+title: James Vashiri
+email: james.vashiri@marquette.edu
+description: AI Systems Engineer and Researcher focused on machine learning, TinyML, edge AI, and embedded systems.
+baseurl: ""
+url: https://vashirij.github.io
+logo: /assets/images/profile-pic.jpg
+lang: en-US
+
+# Resume asset path for resume page embedding
+resume_url: /assets/resume/James_Vashiri_Resume.pdf
+
 sass:
   style: compressed
-# Include custom CSS
-include:
-  - _assets/css/custom.css
 
-# Author
 author:
-  name: "James Vashiri"
-  bio: "PhD-Track Researcher in Software Engineering & Data Science | MS Student at Marquette University"
-  location: "Milwaukee, WI"
-  github: "vashirij"
-  linkedin: "https://linkedin.com/in/jvashiri"
+  name: James Vashiri
+  bio: AI Systems Engineer and Researcher
+  location: Milwaukee, WI
+  github: vashirij
+  linkedin: https://linkedin.com/in/jvashiri
 
-# Navigation
 header_pages:
   - index.md
+  - about.md
   - projects.md
+  - research.md
   - publications.md
+  - resume.md
+  - blog.md
   - contact.md
 
-# Build settings
 markdown: kramdown
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: default
+      author: James Vashiri
