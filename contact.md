@@ -38,7 +38,7 @@ permalink: /contact/
     <p><strong>Email:</strong> <a href="mailto:james.vashiri@marquette.edu">james.vashiri@marquette.edu</a></p>
     <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/jvashiri" target="_blank" rel="noopener">linkedin.com/in/jvashiri</a></p>
     <p><strong>GitHub:</strong> <a href="https://github.com/vashirij" target="_blank" rel="noopener">github.com/vashirij</a></p>
-    <p><strong>Location:</strong> Milwaukee, WI</p>
+    <p><strong>Location:</strong> Garland, TX</p>
 
     <h3 style="margin-top: 1.5rem;">Call to Action</h3>
     <p class="muted">I am open to software engineering, AI/ML, embedded systems, and research roles, including opportunities that bridge industry and academic innovation.</p>

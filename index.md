@@ -1,14 +1,14 @@
 ---
 layout: default
 title: James Vashiri
-description: AI Systems Engineer and Researcher building machine learning, TinyML, and embedded intelligence systems.
+description: James Vashiri is a Software Engineer building intelligent systems across AI, computer vision, embedded systems, and edge computing.
 permalink: /
 ---
 
 <section class="hero" data-reveal>
-  <span class="section-kicker">AI Systems Engineer Portfolio</span>
+  <span class="section-kicker">Software Engineer Portfolio</span>
   <h1>James Vashiri</h1>
-  <p class="subtitle">AI Systems Engineer | Machine Learning | TinyML | Edge AI | Embedded Systems | Computer Vision</p>
+  <p class="subtitle">Software Engineer | AI and Machine Learning | Computer Vision | Embedded Systems</p>
   <p>I build intelligent systems that combine AI, embedded computing, cybersecurity, and software engineering to solve practical engineering problems in real-world environments.</p>
 
   <div class="hero-actions">

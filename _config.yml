@@ -8,7 +8,7 @@ plugins:
 # Site settings
 title: James Vashiri
 email: james.vashiri@marquette.edu
-description: AI Systems Engineer and Researcher focused on machine learning, TinyML, edge AI, and embedded systems.
+description: James Vashiri is a Software Engineer focused on machine learning, computer vision, embedded systems, TinyML, and edge AI in Garland, Texas.
 baseurl: ""
 url: https://vashirij.github.io
 logo: /assets/images/profile-pic.jpg
@@ -22,8 +22,8 @@ sass:
 
 author:
   name: James Vashiri
-  bio: AI Systems Engineer and Researcher
-  location: Milwaukee, WI
+  bio: Software Engineer | AI and Machine Learning | Computer Vision | Embedded Systems
+  location: Garland, TX
   github: vashirij
   linkedin: https://linkedin.com/in/jvashiri
 

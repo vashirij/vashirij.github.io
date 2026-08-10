@@ -12,6 +12,18 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWix+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkR4j8iNf6Q8M4Qfq6S6K5G6Y2R0T5fJH0Lw==" crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="stylesheet" href="{{ '/assets/css/custom.css?v=' | append: site.github.build_revision | relative_url }}">
   {% include head-custom.html %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "James Vashiri",
+    "url": "{{ site.url }}",
+    "jobTitle": "Software Engineer",
+    "description": "Software Engineer focused on machine learning, computer vision, embedded systems, TinyML, and edge AI.",
+    "address": {"@type": "PostalAddress", "addressLocality": "Garland", "addressRegion": "TX", "addressCountry": "US"},
+    "sameAs": ["https://github.com/vashirij", "https://linkedin.com/in/jvashiri"]
+  }
+  </script>
   <title>{{ page.title | default: site.title }}</title>
 </head>
 <body>
@@ -53,7 +65,7 @@
     <div class="footer-grid">
       <section>
         <h3>James Vashiri</h3>
-        <p>AI Systems Engineer and Researcher focused on intelligent, resilient, and deployable AI systems.</p>
+        <p>Software Engineer building intelligent systems across AI, computer vision, and edge computing.</p>
         <div class="social-row">
           <a href="https://github.com/vashirij" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
           <a href="https://linkedin.com/in/jvashiri" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
@@ -74,7 +86,7 @@
       <section>
         <h4>Contact</h4>
         <p>Email: james.vashiri@marquette.edu</p>
-        <p>Location: Milwaukee, WI</p>
+        <p>Location: Garland, TX</p>
       </section>
     </div>
     <p class="footer-meta">&copy; {{ 'now' | date: '%Y' }} James Vashiri. All rights reserved.</p>
