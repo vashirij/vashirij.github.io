@@ -1,16 +1,16 @@
 ---
 layout: default
-title: James Vashiri | Software Engineer, AI and Embedded Systems
-description: James Vashiri is a Garland, Texas software engineer focused on machine learning, computer vision, embedded systems, TinyML, and edge AI.
+title: James Vashiri | Software Engineer & AI/ML Engineer
+description: Software Engineer and AI/ML Engineer with 6+ years of experience in software and information systems, specializing in Python, Java, full-stack development, GenAI, LLMs, RAG, REST APIs, data systems, automation, and cloud technologies.
 permalink: /about/
 ---
 
 <section class="hero" data-reveal>
   <span class="section-kicker">Professional Profile</span>
   <h1>Building intelligent software systems for real-world problems.</h1>
-  <p>I am a Software Engineer with an M.S. in Computer and Information Science from Marquette University (2026, GPA 4.0), focused on building intelligent software systems that solve real-world problems. My work spans software engineering, machine learning, computer vision, embedded systems, TinyML, IoT, and cybersecurity.</p>
-  <p>I combine software development, AI, systems knowledge, and business understanding to build scalable solutions that improve efficiency and deliver measurable business and social value.</p>
-  <p class="subtitle">Garland, TX | Open to Software Engineering, ML/AI Engineering, and Embedded/Edge AI Engineering opportunities</p>
+  <p>I am a Software Engineer and AI/ML Engineer with an M.S. in Computer and Information Science from Marquette University (2026, GPA 3.935), focused on building reliable software systems that solve real-world problems. My work spans software engineering, machine learning, computer vision, embedded systems, TinyML, IoT, and trustworthy AI.</p>
+  <p>I combine software development, AI, systems knowledge, and business understanding to build scalable solutions that improve efficiency and deliver measurable organizational value.</p>
+  <p class="subtitle">Open to opportunities in Texas, Wisconsin, and Washington, as well as remote positions. Willing to relocate for the right opportunity.</p>
   <div class="hero-actions">
     <a class="button" href="{{ '/projects/' | relative_url }}">View Projects</a>
     <a class="button secondary" href="{{ '/resume/' | relative_url }}">View Resume</a>
@@ -25,17 +25,17 @@ permalink: /about/
   <h2 class="section-title">Professional Experience</h2>
   <div class="timeline">
     <article class="timeline-item">
-      <p class="period">Software Engineer Intern</p>
+      <p class="period">Software Engineer | Full-Stack Development</p>
       <h3>International Institute of Wisconsin</h3>
       <p>Built full-stack applications with MERN and Python, integrating REST APIs and databases across requirements, development, testing, debugging, and deployment.</p>
     </article>
     <article class="timeline-item">
-      <p class="period">Technical Support Assistant</p>
+      <p class="period">Technical Support Assistant | IT Systems &amp; Application Support</p>
       <h3>Marquette University Law School</h3>
       <p>Provided IT troubleshooting and technical support, supported systems administration, and helped maintain reliable technology environments for faculty, staff, and students.</p>
     </article>
     <article class="timeline-item">
-      <p class="period">Information Systems / Operations Consulting</p>
+      <p class="period">Information Systems Consultant | Software Engineering, Data & Automation</p>
       <h3>Gijima Deliveries</h3>
       <p>Worked with databases and enterprise applications to optimize workflows and apply technology to improve business efficiency.</p>
     </article>

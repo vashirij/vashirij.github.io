@@ -1,0 +1,158 @@
+capabilities:
+  - title: Software Engineering
+    description: Full-stack applications, backend services, REST APIs, mobile applications, integration, architecture, testing, deployment, and documentation.
+  - title: AI and Machine Learning
+    description: Machine learning, computer vision, active learning, foundation models, TinyML, Edge AI, generative AI, evaluation, and trustworthy AI.
+  - title: Data and Business Intelligence
+    description: ETL workflows, data cleaning, operational analysis, dashboards, KPI reporting, Power BI, SQL, visualization, and decision support.
+  - title: Cloud, Automation, and DevOps
+    description: AWS, Azure, GCP, Docker, GitHub Actions, CI/CD, Linux, workflow automation, Python automation, and deployment practices.
+
+skills:
+  - category: Programming languages
+    items: Python, Java, JavaScript, Dart, C, SQL
+  - category: Backend and full-stack
+    items: FastAPI, Spring Boot, React, Node.js, Express, MERN, REST APIs, Object-oriented programming, Layered architecture, Software development lifecycle
+  - category: Mobile development
+    items: Flutter, Dart, Firebase, Google Maps APIs, Responsive mobile interfaces
+  - category: AI and machine learning
+    items: PyTorch, Scikit-learn, Pandas, NumPy, Machine learning, Computer vision, Active learning, Foundation models, TinyML, Edge AI, Pseudo-labeling, Model evaluation
+  - category: Generative AI and data systems
+    items: OpenAI API, Large language models, Prompt engineering, Retrieval-augmented generation, LangChain, LangGraph, Embeddings, Vector search, PostgreSQL, pgvector, Chroma, FAISS, ETL/ELT
+  - category: Cloud, DevOps, analytics, and tools
+    items: AWS, Azure, GCP, Docker, Git, GitHub, GitHub Actions, CI/CD, Linux, pytest, Postman, Jira, Power BI, Google Colab, Jupyter
+
+experience:
+  - title: Software Engineer | Full-Stack Development
+    organization: International Institute of Wisconsin
+    arrangement: Part-time · Hybrid
+    dates: September 2025 – May 2026
+    technologies: MERN, Python, Jira, Git, GitHub
+    points:
+      - Built and enhanced a case-management application using MERN and Python.
+      - Translated stakeholder and operational requirements into tested full-stack features.
+      - Contributed across requirements analysis, system design, development, testing, debugging, deployment, and documentation.
+      - Used Jira and Git/GitHub for development planning and collaboration.
+      - Automated repetitive case-management processes to improve internal workflows.
+  - title: Technical Support Assistant | IT Systems & Application Support
+    organization: Marquette University Law School
+    arrangement: Part-time
+    dates: August 2025 – July 2026
+    technologies: Hardware support, software support, user accounts, classroom technology
+    points:
+      - Provided technical and application support to faculty, staff, and students.
+      - Troubleshot hardware, software, user-account, system-access, and classroom-technology issues.
+      - Documented incidents and communicated technical solutions clearly to nontechnical users.
+      - Helped maintain dependable day-to-day technology operations.
+  - title: Information Systems Consultant | Software Engineering, Data & Automation
+    organization: Gijima Deliveries
+    arrangement: Contract
+    dates: January 2021 – August 2025
+    technologies: Flutter, Dart, Firebase, Google Maps, REST APIs, Python, Make, ETL, Power BI, Google Colab
+    points:
+      - Led requirements, architecture, development, testing, deployment, and user training for the Gijima Proof of Delivery System.
+      - Built the mobile solution using Flutter, Dart, Firebase, Google Maps, delivery tracking, and secure shipment confirmation.
+      - Developed REST API integrations, Python automations, and a WhatsApp booking chatbot using Make.
+      - Created ETL, Power BI, and Google Colab reporting workflows.
+      - Transformed operational data into dashboards, KPI tracking, and actionable business insights.
+      - Supported websites, Microsoft 365, phone systems, users, and essential IT operations.
+  - title: Freelance Software Engineer & AI/ML Developer
+    organization: GrineFalcon Technologies
+    arrangement: Self-employed
+    dates: May 2020 – July 2025
+    technologies: Flutter, Dart, Firebase, web development, automation, data, AI/ML, SEO, analytics
+    points:
+      - Developed mobile, web, automation, data, and AI-enabled solutions addressing practical business requirements.
+      - Developed and published the GrineFalcon Android Application using Flutter and Firebase.
+      - The application reached more than 100 downloads during its first month.
+      - Launched the GrineFalcon Online Store.
+      - Used SEO, digital marketing, and analytics-informed improvements to grow the online store to more than 1,500 monthly visitors.
+      - Contributed across requirements analysis, design, development, testing, deployment, maintenance, and user support.
+
+projects:
+  - title: Enterprise Document Intelligence Platform
+    category: Software Engineering · Generative AI
+    status: Completed portfolio implementation
+    problem: Organizations need reliable answers from internal documents without losing source traceability.
+    solution: A source-grounded platform for PDF ingestion, semantic chunking, embeddings, hybrid retrieval, reranking, and document and page-level citations.
+    value: Helps organizations retrieve reliable answers from internal documents while preserving traceability to the original source.
+    technologies: Python, FastAPI, OpenAI API, RAG, LangChain, LangGraph, PostgreSQL, pgvector, Chroma, FAISS, Docker, pytest
+  - title: Employee Management API
+    category: Backend Software Engineering
+    status: In Progress
+    problem: Build a maintainable backend foundation for employee data and access control.
+    solution: Spring Boot backend with PostgreSQL connected and a Docker-based database environment configured.
+    value: Demonstrates backend development, relational database integration, layered architecture, testing strategy, API security, DevOps, and cloud deployment planning.
+    technologies: Java, Spring Boot, PostgreSQL, Spring Data JPA, Docker, Maven
+    github: https://github.com/vashirij/employee-api
+    roadmap: Employee entity and repository; CRUD endpoints; pagination, filtering, and sorting; validation; exception handling; testing; security; OpenAPI; GitHub Actions; logging; Azure Container Apps.
+  - title: Excelerate Hub
+    category: Mobile and Full-Stack Development
+    status: Completed team project
+    problem: Educational programs need accessible discovery, feedback, and progress views.
+    solution: A cross-platform Flutter application with structured architecture and external API integration.
+    value: Demonstrates mobile architecture, state management, API integration, automated testing, responsive UI, and collaborative GitHub workflows.
+    technologies: Flutter, Dart, REST APIs, Provider and ChangeNotifier, Repository pattern, MVC, Material Design 3, GitHub Actions, unit/widget/integration testing
+    github: https://github.com/Group-49-MAD-0610/Excelerate_Hub
+  - title: Gijima Proof of Delivery System
+    category: Mobile Software Engineering · Logistics
+    status: Completed
+    problem: Delivery teams need dependable tracking and secure shipment confirmation.
+    solution: A delivery-management application supporting delivery tracking and secure shipment confirmation.
+    value: Digitized delivery workflows and improved shipment visibility, operational coordination, and access to delivery information.
+    technologies: Flutter, Dart, Firebase, Google Maps, REST APIs, Git/GitHub, Testing
+  - title: GrineFalcon Android Application
+    category: Mobile Application Development
+    status: Completed and published
+    problem: Deliver a practical mobile application for Android users.
+    solution: Developed and published an application using Flutter and Firebase.
+    value: Reached more than 100 downloads during its first month.
+    technologies: Flutter, Dart, Firebase
+  - title: GrineFalcon Online Store
+    category: Web Development · Digital Commerce
+    status: Completed
+    problem: Establish a web presence for digital commerce and audience growth.
+    solution: Developed and launched an online store with SEO, digital marketing, and analytics-informed improvements.
+    value: Reached more than 1,500 monthly visitors.
+    technologies: Web development, SEO, digital marketing, analytics
+
+research:
+  - title: "Driving TinyML Self-Sufficiency: An Energy-Harvesting, Autonomous, and Label-Free Active Learning Framework for Remote Wildfire Anomaly Detection"
+    category: TinyML · Edge AI · Environmental Monitoring
+    status: Research prototype
+    description: An energy-aware framework combining multivariate environmental simulation, active learning, high-confidence pseudo-labeling, lightweight edge inference, and virtual sensor-based hardware validation.
+    value: Explores autonomous, low-power wildfire monitoring where connectivity, energy, and labeled training data are limited.
+    technologies: Python, TinyML, ESP32, Wokwi, Active learning, Pseudo-labeling, Environmental sensors, Edge inference
+  - title: Confidential AI/ML Research Project — Digital Pathology
+    category: AI/ML Research · Digital Pathology
+    status: Confidential Research
+    description: Contributing to confidential AI and machine-learning research in digital pathology. Technical, methodological, and experimental details are withheld due to project confidentiality.
+    value: Confidential research contribution.
+  - title: Adversarial Robustness of AI-Based Threat Detection Systems
+    category: Machine Learning Research · Trustworthy AI
+    status: Research
+    description: Trained network-intrusion classifiers and evaluated adversarial attacks and defensive strategies to measure predictive performance and model resilience.
+    value: Studies trustworthy model behavior and resilience under adversarial conditions.
+    technologies: Python, PyTorch, Scikit-learn, Pandas, CICIDS2017, FGSM, PGD
+  - title: "From Accuracy to Accountability: TAMF — A Quantifiable Framework for Trustworthy AI in High-Risk Systems"
+    category: Trustworthy AI
+    status: Research poster
+    description: A quantitative framework for examining accountability, transparency, and model trust in high-risk AI systems.
+    value: Presented at Marquette University in February 2026.
+
+education:
+  - degree: Master of Science in Computer and Information Science
+    institution: Marquette University
+    location: Milwaukee, Wisconsin
+    date: August 2026
+    detail: "GPA: 3.935"
+  - degree: Bachelor of Science in Software Engineering (Honors)
+    institution: Zimbabwe Open University
+    location: Harare, Zimbabwe
+    date: June 2025
+    detail: "GPA: 4.0 · Capstone: Machine Learning Model for Maize Yield Prediction in Marondera, Zimbabwe"
+  - degree: Bachelor of Business Studies (Honors)
+    institution: University of Zimbabwe
+    location: Harare, Zimbabwe
+    date: June 2014
+    detail: "GPA: 3.67"

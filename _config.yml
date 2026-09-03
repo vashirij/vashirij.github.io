@@ -6,9 +6,9 @@ plugins:
   - jekyll-seo-tag
 
 # Site settings
-title: James Vashiri
-email: james.vashiri@marquette.edu
-description: James Vashiri is a Software Engineer focused on machine learning, computer vision, embedded systems, TinyML, and edge AI in Garland, Texas.
+title: James Vashiri | Software Engineer & AI/ML Engineer
+email: grinefalcon2@gmail.com
+description: Software Engineer and AI/ML Engineer with 6+ years of experience in software and information systems, specializing in Python, Java, full-stack development, GenAI, LLMs, RAG, REST APIs, data systems, automation, and cloud technologies.
 baseurl: ""
 url: https://vashirij.github.io
 logo: /assets/images/profile-pic.jpg
@@ -22,20 +22,13 @@ sass:
 
 author:
   name: James Vashiri
-  bio: Software Engineer | AI and Machine Learning | Computer Vision | Embedded Systems
-  location: Garland, TX
+  bio: Software Engineer | AI/ML Engineer
+  location: Texas, Wisconsin, and Washington; open to remote work and relocation
   github: vashirij
   linkedin: https://linkedin.com/in/jvashiri
 
 header_pages:
   - index.md
-  - about.md
-  - projects.md
-  - research.md
-  - publications.md
-  - resume.md
-  - blog.md
-  - contact.md
 
 markdown: kramdown
 

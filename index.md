@@ -1,101 +1,35 @@
 ---
 layout: default
-title: James Vashiri
-description: James Vashiri is a Software Engineer building intelligent systems across AI, computer vision, embedded systems, and edge computing.
+title: James Vashiri | Software Engineer & AI/ML Engineer
+description: Software Engineer and AI/ML Engineer with 6+ years of experience in software and information systems, specializing in Python, Java, full-stack development, GenAI, LLMs, RAG, REST APIs, data systems, automation, and cloud technologies.
 permalink: /
 ---
 
-<section class="hero" data-reveal>
-  <span class="section-kicker">Software Engineer Portfolio</span>
-  <h1>James Vashiri</h1>
-  <p class="subtitle">Software Engineer | AI and Machine Learning | Computer Vision | Embedded Systems</p>
-  <p>I build intelligent systems that combine AI, embedded computing, cybersecurity, and software engineering to solve practical engineering problems in real-world environments.</p>
-
-  <div class="hero-actions">
-    <a class="button" href="{{ '/projects/' | relative_url }}">View Projects</a>
-    <a class="button secondary" href="{{ '/resume/' | relative_url }}">Download Resume</a>
-    <a class="button ghost" href="{{ '/contact/' | relative_url }}">Contact Me</a>
+<section class="hero" id="home">
+  <div class="hero-copy" data-reveal>
+    <p class="eyebrow">Software Engineer Portfolio</p>
+    <h1>James Vashiri</h1>
+    <p class="hero-title">Software Engineer | AI/ML Engineer</p>
+    <p class="hero-stack">6+ Years in Software &amp; Information Systems | Python | Java | GenAI | LLMs | RAG | REST APIs | Cloud | M.S. Computer &amp; Information Science</p>
+    <p class="hero-lede">I build reliable software, full-stack applications, APIs, automation solutions, and AI-powered systems that improve operations, increase access to information, and support better business decisions.</p>
+    <div class="hero-actions"><a class="button" href="#projects">View Projects</a><a class="button secondary" href="{{ site.resume_url | relative_url }}" download>Download Résumé</a><a class="button ghost" href="#contact">Contact Me</a></div>
+    <div class="availability"><strong>Preferred locations</strong><span>Open to opportunities in Texas, Wisconsin, and Washington, as well as remote positions. Willing to relocate for the right opportunity.</span></div>
   </div>
-
-  <div class="social-links">
-    <a href="https://github.com/vashirij" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
-    <a href="https://linkedin.com/in/jvashiri" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
-    <a href="https://scholar.google.com" target="_blank" rel="noopener"><i class="fa-solid fa-graduation-cap"></i> Google Scholar</a>
-    <a href="mailto:james.vashiri@marquette.edu"><i class="fa-solid fa-envelope"></i> Email</a>
-  </div>
-
-  <div class="tech-icons">
-    <span><i class="fa-brands fa-python"></i> Python</span>
-    <span><i class="fa-solid fa-superscript"></i> MATLAB</span>
-    <span><i class="fa-solid fa-code"></i> C++</span>
-    <span><i class="fa-brands fa-linux"></i> Linux</span>
-    <span><i class="fa-solid fa-brain"></i> TensorFlow</span>
-    <span><i class="fa-brands fa-git-alt"></i> Git</span>
-    <span><i class="fa-brands fa-docker"></i> Docker</span>
-  </div>
+  <div class="hero-profile" data-reveal><img src="{{ '/assets/images/profile-pic.jpg' | relative_url }}" alt="James Vashiri" width="280" height="280"><p class="profile-label">Engineering with context</p><p>From requirements and system design through deployment, support, and research evaluation.</p></div>
 </section>
 
-<section data-reveal>
-  <h2 class="section-title">Technical Skills</h2>
-  <p class="muted">A focused systems profile spanning software, AI research, and deployable edge intelligence.</p>
-  <div class="skill-grid">
-    {% for skill in site.data.skills.languages %}
-    <article class="skill-card">
-      <h3>{{ skill.name }}</h3>
-      <p class="muted">Language</p>
-      <div class="skill-meter"><span style="width: {{ skill.level }}%"></span></div>
-    </article>
-    {% endfor %}
-  </div>
-  <div class="skill-grid" style="margin-top: 1rem;">
-    {% for skill in site.data.skills.technologies %}
-    <article class="skill-card">
-      <h3>{{ skill.name }}</h3>
-      <p class="muted">Technology</p>
-      <div class="skill-meter"><span style="width: {{ skill.level }}%"></span></div>
-    </article>
-    {% endfor %}
-  </div>
-</section>
+<section class="experience-section section" id="experience" data-reveal><div class="section-heading"><div><p class="eyebrow">Professional experience</p><h2>Experience that connects systems to outcomes</h2></div><p class="experience-total">6+ Years<br><span>Software and Information Systems</span></p></div><div class="experience-list">{% for role in site.data.portfolio.experience %}<article class="experience-item"><div class="experience-meta"><span>{{ role.dates }}</span><span>{{ role.arrangement }}</span></div><div><h3>{{ role.title }}</h3><p class="organization">{{ role.organization }}</p><p class="experience-technologies"><strong>Technologies:</strong> {{ role.technologies }}</p><ul>{% for point in role.points %}<li>{{ point }}</li>{% endfor %}</ul></div></article>{% endfor %}</div></section>
 
-<section data-reveal>
-  <h2 class="section-title">Featured Projects</h2>
-  <div class="card-grid">
-    {% for project in site.data.projects limit:6 %}
-    <article class="project-card" data-filter-card data-tags="{{ project.tags | join: ' ' | downcase }}">
-      <img class="project-thumb" loading="lazy" src="{{ project.image | relative_url }}" alt="{{ project.title }} preview image">
-      <h3>{{ project.title }}</h3>
-      <p class="muted">{{ project.description }}</p>
-      <div class="tag-list">
-        {% for tag in project.tags %}
-        <span class="tag">{{ tag }}</span>
-        {% endfor %}
-      </div>
-      <div class="hero-actions">
-        <a class="button secondary" href="{{ project.github }}" target="_blank" rel="noopener">GitHub</a>
-        {% if project.demo %}
-        <a class="button ghost" href="{{ project.demo }}" target="_blank" rel="noopener">Live Demo</a>
-        {% endif %}
-      </div>
-    </article>
-    {% endfor %}
-  </div>
-</section>
+<section class="section preview-section" aria-label="Professional summary"><div class="preview-grid"><div><strong>6+ Years</strong><span>Software and Information Systems</span></div><div><strong>Software Engineering</strong><span>Full-Stack, Backend, Mobile, and APIs</span></div><div><strong>Applied AI</strong><span>GenAI, LLMs, RAG, and Machine Learning</span></div><div><strong>Cloud and DevOps</strong><span>AWS, Azure, GCP, Docker, and CI/CD</span></div></div></section>
 
-<section class="card" data-reveal>
-  <h2 class="section-title">Recruiter Snapshot</h2>
-  <div class="grid-3">
-    <div>
-      <h3>Research Depth</h3>
-      <p class="muted">TinyML, edge intelligence, AI security, and cyber-physical systems with publication and roadmap focus.</p>
-    </div>
-    <div>
-      <h3>Engineering Delivery</h3>
-      <p class="muted">From embedded and IoT platforms to software systems and computer vision pipelines.</p>
-    </div>
-    <div>
-      <h3>Career Direction</h3>
-      <p class="muted">Open to software engineering, AI/ML, embedded systems, and research opportunities including PhD pathways.</p>
-    </div>
-  </div>
-</section>
+<section class="section" id="projects" data-reveal><p class="eyebrow">Selected work</p><h2>Featured software and AI projects</h2><div class="project-grid">{% for project in site.data.portfolio.projects %}<article class="project-card"><div class="project-topline"><span class="category">{{ project.category }}</span><span class="status">{{ project.status }}</span></div><h3>{{ project.title }}</h3><p><strong>Problem:</strong> {{ project.problem }}</p><p><strong>Built:</strong> {{ project.solution }}</p><p><strong>Value:</strong> {{ project.value }}</p>{% if project.technologies %}<div class="tag-list">{% assign tech = project.technologies | split: ', ' %}{% for item in tech %}<span class="tag">{{ item }}</span>{% endfor %}</div>{% endif %}{% if project.roadmap %}<p class="roadmap"><strong>Roadmap:</strong> {{ project.roadmap }}</p>{% endif %}{% if project.github %}<a class="text-link" href="{{ project.github }}" target="_blank" rel="noopener">View source on GitHub <span aria-hidden="true">↗</span></a>{% endif %}</article>{% endfor %}</div></section>
+
+<section class="section" id="skills" data-reveal><p class="eyebrow">Technical toolkit</p><h2>Skills for shipping and learning</h2><div class="skill-groups">{% for group in site.data.portfolio.skills %}<article class="skill-group"><h3>{{ group.category }}</h3><div class="tag-list">{% assign items = group.items | split: ', ' %}{% for item in items %}<span class="tag">{{ item }}</span>{% endfor %}</div></article>{% endfor %}</div></section>
+
+<section class="section section-muted" id="research" data-reveal><p class="eyebrow">Research and publications</p><h2>Research with responsible boundaries</h2><div class="project-grid">{% for item in site.data.portfolio.research %}<article class="project-card research-card"><div class="project-topline"><span class="category">{{ item.category }}</span><span class="status">{{ item.status }}</span></div><h3>{{ item.title }}</h3><p>{{ item.description }}</p>{% unless item.status == 'Confidential Research' %}<p><strong>Research value:</strong> {{ item.value }}</p>{% if item.technologies %}<div class="tag-list">{% assign tech = item.technologies | split: ', ' %}{% for technology in tech %}<span class="tag">{{ technology }}</span>{% endfor %}</div>{% endif %}{% if item.github %}<a class="text-link" href="{{ item.github }}" target="_blank" rel="noopener">View research repository <span aria-hidden="true">↗</span></a>{% endif %}{% endunless %}</article>{% endfor %}</div><p class="section-note">Confidential research details are intentionally withheld.</p></section>
+
+<section class="section" id="education" data-reveal><p class="eyebrow">Education</p><h2>Education</h2><div class="education-list">{% for item in site.data.portfolio.education %}<article class="education-item"><div><h3>{{ item.degree }}</h3><p>{{ item.institution }} · {{ item.location }}</p></div><div class="education-detail"><span>{{ item.date }}</span><span>{{ item.detail }}</span></div></article>{% endfor %}</div></section>
+
+<section class="section" id="about" data-reveal><p class="eyebrow">Professional profile</p><h2>Useful systems, thoughtfully engineered.</h2><div class="split-copy"><p>Software Engineer and AI/ML Engineer with more than six years of combined experience across full-stack software development, information systems, automation, data analytics, and applied AI. I build tested applications, APIs, mobile solutions, data pipelines, dashboards, and machine-learning workflows from requirements and system design through deployment and user support.</p><p>My graduate research focuses on active learning, computer vision, TinyML, Edge AI, trustworthy AI, and generative AI. I hold an M.S. in Computer and Information Science from Marquette University with a 3.935 GPA and a B.S. in Software Engineering with Honors.</p></div><p class="value-statement">My work connects technical implementation with practical organizational value: reducing manual effort, improving access to information, strengthening operational visibility, and supporting better decisions.</p></section>
+
+<section class="contact-section" id="contact" data-reveal><div><p class="eyebrow">Contact</p><h2>Let’s build reliable software and intelligent systems that create measurable value.</h2></div><div class="contact-details"><p>Preferred locations: Texas, Wisconsin, and Washington</p><p>Open to remote work and willing to relocate.</p><a href="mailto:grinefalcon2@gmail.com">grinefalcon2@gmail.com</a><a href="https://github.com/vashirij" target="_blank" rel="noopener">GitHub ↗</a><a href="https://linkedin.com/in/jvashiri" target="_blank" rel="noopener">LinkedIn ↗</a><a class="button secondary" href="{{ site.resume_url | relative_url }}" download>Download Résumé</a></div></section>
